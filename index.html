@@ -13,7 +13,7 @@
                   <a href="catalog.html">
                      Каталог
                   </a>
-                  <ul>
+                  <ul class="popup">
                      <li><a href="#"><b>Новинки</b></a></li>
                      <li><a href="catalog.html">Сливочное</a></li>
                      <li><a href="#">Щербеты</a></li>
@@ -29,12 +29,12 @@
             <ul class="user-navigation">
                <li>
                   <a href="#">Поиск</a>
-                  <form action="https://echo.htmlacademy.ru" method="get">
+                  <form class="popup" action="https://echo.htmlacademy.ru" method="get" >
                      <input type="search" name="search" placeholder="Что ищем?">
                   </form>
               </li>
                <li><a href="login.html">Вход</a>
-                  <form action="https://echo.htmlacademy.ru" method="post">
+                  <form class="popup" action="https://echo.htmlacademy.ru" method="post">
                      <input type="email" name="email" placeholder="Электронная почта">
                      <input type="password" name="password" placeholder="Пароль">
                      <a class="button" href="#">Войти</a>
@@ -144,7 +144,16 @@
          <p>Для заказов по телефону:
          <a href=""><b>8 812 450-25-25</b></a>(с 10 до 20 ежедневно)</p>
          <a class="button" href="">Форма обратной связи</a>
-
+         <div class="popup">
+            <h2>Мы обязательно вам ответим!</h2>
+            <button type="button" class="close">Закрыть</button>
+            <form action="https://echo.htmlacademy.ru" method="post" class="form">
+               <input type="text" name="name" placeholder="Как вас зовут?" class="form__name">
+               <input type="email" name="email" placeholder="Ваша почта для ответа?" class="form__email">
+               <textarea placeholder="Напишите что-нибудь..." class="form__text"></textarea>
+               <button type="submit" class="button">Отправить</button>
+             </form>
+         </div>
       </section> 
    			
    </main>	
