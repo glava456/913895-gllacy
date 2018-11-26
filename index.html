@@ -27,9 +27,21 @@
             </ul>
    		
             <ul class="user-navigation">
-               <li><a href="#">
-                  Поиск</a></li>
-               <li><a href="login.html">Вход</a></li>
+               <li>
+                  <a href="#">Поиск</a>
+                  <form action="https://echo.htmlacademy.ru" method="get">
+                     <input type="search" name="search" placeholder="Что ищем?">
+                  </form>
+              </li>
+               <li><a href="login.html">Вход</a>
+                  <form action="https://echo.htmlacademy.ru" method="post">
+                     <input type="email" name="email" placeholder="Электронная почта">
+                     <input type="password" name="password" placeholder="Пароль">
+                     <a href="#">Войти</a>
+                     <a href="#">Забыли пароль?</a>
+                     <a href="#">Новая регистрация</a>
+                  </form>
+               </li>
                <li><a href="#">Корзина</a></li>
             </ul>
       </nav>	
