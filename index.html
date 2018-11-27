@@ -28,21 +28,11 @@
    		
             <ul class="user-navigation">
                <li>
-                  <a href="#" area-label="Поиск"></a>
-                  <form class="popup" action="https://echo.htmlacademy.ru" method="get" >
-                     <input type="search" name="search" placeholder="Что ищем?">
-                  </form>
+                  <a href="#">Поиск</a>
               </li>
                <li><a href="login.html">Вход</a>
-                  <form class="popup" action="https://echo.htmlacademy.ru" method="post">
-                     <input type="email" name="email" placeholder="Электронная почта">
-                     <input type="password" name="password" placeholder="Пароль">
-                     <button type="submit" class="button">Войти</button>
-                     <a href="#">Забыли пароль?</a>
-                     <a href="#">Новая регистрация</a>
-                  </form>
                </li>
-               <li><a href="#" area-label="Корзина"></a></li>
+               <li><a href="#">Корзина</a></li>
             </ul>
       </nav>	
          <p>С 10 до 20, ежедневно</p>
@@ -145,19 +135,9 @@
          <b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b></p>
          <p>Для заказов по телефону:
          <a href="#">8 812 450-25-25</a>(с 10 до 20 ежедневно)</p>
-         <a class="button" href="#">Форма обратной связи</a>
-         <div class="popup">
-            <h2>Мы обязательно вам ответим!</h2>
-            <button type="button" class="close">Закрыть</button>
-            <form action="https://echo.htmlacademy.ru" method="post" class="form">
-               <input type="text" name="name" placeholder="Как вас зовут?" class="form__name">
-               <input type="email" name="email" placeholder="Ваша почта для ответа?" class="form__email">
-               <textarea placeholder="Напишите что-нибудь..." class="form__text"></textarea>
-               <button type="submit" class="button">Отправить</button>
-             </form>
-         </div>
+         <a class="button" href="#">Форма обратной связи</a>       
       </section> 
-   			
+   		
    </main>	
    <footer>
       <section class="social">
@@ -185,6 +165,28 @@
          </p>
       </section>
     </footer>
+    <div class="popup">
+      <h2>Мы обязательно вам ответим!</h2>
+      <button type="button" class="close">Закрыть</button>
+      <form action="https://echo.htmlacademy.ru" method="post" class="form">
+         <input type="text" name="name" placeholder="Как вас зовут?" class="form__name">
+         <input type="email" name="email" placeholder="Ваша почта для ответа?" class="form__email">
+         <textarea placeholder="Напишите что-нибудь..." class="form__text"></textarea>
+         <button type="submit" class="button">Отправить</button>
+      </form>
+    </div>
+
+   <form class="popup" action="https://echo.htmlacademy.ru" method="get" >
+      <input type="search" name="search" placeholder="Что ищем?">
+   </form>
+
+   <form class="popup" action="https://echo.htmlacademy.ru" method="post">
+      <input type="email" name="email" placeholder="Электронная почта">
+      <input type="password" name="password" placeholder="Пароль">
+      <button type="submit" class="button">Войти</button>
+      <a href="#">Забыли пароль?</a>
+      <a href="#">Новая регистрация</a>
+   </form>
 
 </body>
 </html>
