@@ -12,7 +12,9 @@ body{
 a{
 	text-decoration: none;
 }
-
+.popup{
+	display: none;
+}
 .button{
 	font: inherit;
 
