@@ -88,10 +88,29 @@ color: #323232;
 background-color: #ffffff;
 }
 
+.link-greenfon{
+	list-style: none;
+	color: #ffffff;
+	border-bottom: 1px #b5c4bc solid;
+}
+.link-greenfon:hover,
+.link-greenfon:focus,
+.link-greenfon:active{
+	color: #ffbc9e;
+	border-bottom: 1px #ffbc9e solid;
+}
+.link-whitefon{
+	list-style: none;
+color: #323232;
+	border-bottom: 1px #b2b2b2 solid;
 
-
-
-
+}
+.link-whitefon:hover,
+.link-whitefon:focus,
+.link-whitefon:active{
+	color: #e84d37;
+	border-bottom: 1px #e84d37 solid;
+}
 
 
 
