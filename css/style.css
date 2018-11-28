@@ -47,8 +47,7 @@ background-color: #ad6655;
 .user-navigation {
   list-style: none;
 }
-.site-navigation a,
-.user-navigation a {
+.site-navigation a{
   	color: #ffffff;
   	font-weight: bold;
   	padding: 10px 15px 10px 15px;
@@ -56,7 +55,7 @@ background-color: #ad6655;
 	line-height: 18px;
 }
 .site-navigation a:hover{
-	color: #000000;
+	color: #323232;
 	background-color: #ffffff;
 	border-radius: 40px;
 }
@@ -71,7 +70,21 @@ background-color: #d07058;
 color: #ffffff;
 }
 
-
+.user-navigation a{
+color: #ffffff;
+font-weight: bold;
+padding: 10px 15px 10px 15px;
+font-size: 14px;
+line-height: 16px;
+background-color: #a1b4a9;
+border-radius: 40px;	
+}
+.user-navigation a:hover,
+.user-navigation a:focus,
+.user-navigation a:active{
+color: #323232;
+background-color: #ffffff;
+}
 
 
 
