@@ -42,7 +42,7 @@
    		
             <ul class="user-navigation">
                <li>
-                  <a href="#">Поиск</a>
+                  <a href="#"><span class="visually-hidden">Поиск</span></a>
                   <form action="https://echo.htmlacademy.ru" method="get" >
                      <input type="search" name="search" placeholder="Что ищем?">
                   </form>
@@ -171,7 +171,8 @@
 
        <section class="adress">
          <p>Адрес главного офиса и офлайн-магазина:
-         <b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b></p>
+            <b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b>
+         </p>
          <p>Для заказов по телефону:
          <a class="link-whitefon" href="#">8 812 450-25-25</a>(с 10 до 20 ежедневно)</p>
          <a class="button" href="#">Форма обратной связи</a>       
@@ -179,27 +180,51 @@
    		
    </main>	
    <footer>
-      <section class="social">
-         <ul>
-            <li><a href="#"><span class="visually-hidden">Мы в Твиттер</span></a></li>
-            <li><a href="#"><span class="visually-hidden">Мы в Инстаграм</span></a></li>
-            <li><a href="#"><span class="visually-hidden">Мы в Фейсбук</span></a></li>
-            <li><a href="#"><span class="visually-hidden">Мы в ВК</span></a></li>
-         </ul>
-      </section>
+      <ul class="social">
+         <li class="social__item">
+            <a class="social__link social__link--twitter" href="#">
+               <span class="visually-hidden">Мы в Твиттер</span>
+            </a>
+         </li>
+         <li class="social__item">
+            <a class="social__link social__link--instagram" href="#">
+               <span class="visually-hidden">Мы в Инстаграм</span>
+            </a>
+         </li>
+         <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">
+               <span class="visually-hidden">Мы в Фейсбук</span>
+            </a>
+         </li>
+         <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="#">
+               <span class="visually-hidden">Мы в ВК</span>
+            </a>
+         </li>
+      </ul>
 
-      <section class="links">
-         <ul>
-            <li><a class="link-greenfon" href="#">Для поставщиков</a></li>
-            <li><a class="link-greenfon" href="#">О производстве</a></li>
-            <li><a class="link-greenfon" href="#">Наши документы</a></li>
-            <li><a class="link-greenfon" href="#">Экологические стандарты</a></li>
-         </ul>
-      </section>
-
+       <ul class="links">
+         <li>
+            <a class="link-greenfon" href="#">Для поставщиков</a>
+         </li>
+         <li>
+            <a class="link-greenfon" href="#">О производстве</a>
+         </li>
+         <li>
+            <a class="link-greenfon" href="#">Наши документы</a>
+         </li>
+         <li>
+            <a class="link-greenfon" href="#">Экологические стандарты</a>
+         </li>
+      </ul>
+  
       <section class="web">
-            <img src="img/logo-htmlacademy.svg" width="108" height="39" alt="htmlacademy">
-            <p>сделано в <a class="link-greenfon" href="#">HTML ACADEMY</a></p>
+            <a href="https://htmlacademy.ru/intensive/htmlcss">
+               <img src="img/logo-htmlacademy.svg" width="108" height="39" alt="htmlacademy">
+            </a>
+            <p>сделано в 
+               <a class="link-greenfon" href="#">HTML ACADEMY</a>
+            </p>
       </section>
     </footer>
   
