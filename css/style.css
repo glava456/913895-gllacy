@@ -13,8 +13,6 @@ a{
 	text-decoration: none;
 }
 
-
-
 .button{
 	font: inherit;
 
@@ -73,7 +71,7 @@ background-color: #d07058;
 color: #ffffff;
 }
 .submenu{
-/*display: none;*/
+display: none;
 list-style: none;
 
 color: #323232;
@@ -145,7 +143,7 @@ color: #323232;
 }
 
 .info{
-	 background-image: url("img/wafer-fon.jpg");
+	 background-image: url(../img/wafer-fon.jpg);
 	 background-position: top center;
  	 background-repeat: no-repeat;
 	background-color: #eae3c7;
@@ -166,7 +164,7 @@ font-size: 24px;
 }
 	
 .blog{
-	background-image: url("img/blog-fon.jpg");
+	background-image: url(../img/blog-fon.jpg);
 	 background-position: top center;
  	 background-repeat: no-repeat;
 
@@ -186,17 +184,20 @@ font-size: 24px;
 	font-weight: bold;
 }
 .subscription{
-	background-image: url("img/bg-post.svg");
+	background-image: url(../img/bg-post.svg);
+	background-position: top center;
+ 	background-repeat: no-repeat;
+	padding: 5px;
 }
 .subscription-conteiner{
 	border-radius: 10px;
-  background-color: #f8f7f4;
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: normal;
-  color: #5a5a5a;
+	
 
-
+	background-color: #f8f7f4;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #5a5a5a;
 }
 
 .subscription-conteiner input,
@@ -227,11 +228,28 @@ font-size: 24px;
 	border: 1px rgba(178, 178, 178, 0.52) solid;
  }
 
-
-
-
-
-
+.feedback,.user-navigation form{
+	display: none;
+}
+.social ul{
+	list-style: none;
+}
+.social li:nth-child(1){
+	background-image: url(../img/twitter.svg);
+ 	background-repeat: no-repeat;
+ }
+.social li:nth-child(2){
+	background-image: url(../img/instagram.svg);
+ 	background-repeat: no-repeat;
+ }
+.social li:nth-child(3){
+	background-image: url(../img/fb.svg);
+ 	background-repeat: no-repeat;
+ }
+.social li:nth-child(4){
+	background-image: url(../img/vk.svg);
+ 	background-repeat: no-repeat;
+ }
 
 
 
