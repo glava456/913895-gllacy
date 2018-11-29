@@ -43,12 +43,12 @@
             <ul class="user-navigation">
                <li>
                   <a href="#">Поиск</a>
-                  <form class="popup" action="https://echo.htmlacademy.ru" method="get" >
+                  <form action="https://echo.htmlacademy.ru" method="get" >
                      <input type="search" name="search" placeholder="Что ищем?">
                   </form>
               </li>
                <li><a href="login.html">Вход</a>
-                  <form class="popup" action="https://echo.htmlacademy.ru" method="post">
+                  <form action="https://echo.htmlacademy.ru" method="post">
                      <input type="email" name="email" placeholder="Электронная почта">
                      <input type="password" name="password" placeholder="Пароль">
                      <button type="submit" class="button">Войти</button>
@@ -129,7 +129,7 @@
       <section class="info">
          <h2 class="visually-hidden">Информация о магазине Глейси</h2>
          <p>Магазин Глейси - это онлайн- и офлайн- магазин по продаже мороженного собственного производства на развес</p>
-         <ul>
+         <ul class="info-list">
             <li>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</li>
             <li>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья</li>
             <li>Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</li>
@@ -138,16 +138,19 @@
       </section>
 
       <article class="blog">
-         <h2><a href="#">10 способов сервировки фруктовых щербетов к столу</a></h2>
+         <h2>Новое в нашем блоге</h2>
+         <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
       </article>
 
       <section class="subscription">
-         <h2 class="visually-hidden">Подписка нак рассылку</h2>
-         <p>Подпишитесь на нашу сладкую рассылку....</p>
-         <form action="https://echo.htmlacademy.ru" method="post" class="form">
-            <input type="email">
-            <button type="submit" class="button">Отправить</button>
-         </form>
+         <div class="subscription-conteiner">
+            <h2 class="visually-hidden">Подписка нак рассылку</h2>
+            <p>Подпишитесь на нашу сладкую рассылку....</p>
+            <form action="https://echo.htmlacademy.ru" method="post" class="form">
+             <input type="email"  placeholder="Электронная почта">
+               <button type="submit" class="button">Отправить</button>
+            </form>
+         </div>
       </section> 
 
       <section class="maps">
@@ -189,7 +192,7 @@
     </footer>
   
 
-    <div class="popup">
+    <div class="feedback">
       <h2>Мы обязательно вам ответим!</h2>
       <button type="button" class="close">Закрыть</button>
       <form action="https://echo.htmlacademy.ru" method="post" class="form">

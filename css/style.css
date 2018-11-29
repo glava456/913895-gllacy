@@ -150,18 +150,82 @@ color: #323232;
  	 background-repeat: no-repeat;
 	background-color: #eae3c7;
 	color: #323232;
+
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
 }
 
-
+.info-list{
+	list-style: none;
+}
+.info p{
+font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+}
 	
-	 
+.blog{
+	background-image: url("img/blog-fon.jpg");
+	 background-position: top center;
+ 	 background-repeat: no-repeat;
+
+ 	background-color: #ffffff;
+ 	color: #323232; 
+}
+.blog h2{
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: medium;
+}	 
+.blog a{
+	color: #323232; 
+	text-decoration: underline;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.subscription{
+	background-image: url("img/bg-post.svg");
+}
+.subscription-conteiner{
+	border-radius: 10px;
+  background-color: #f8f7f4;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #5a5a5a;
 
 
+}
 
+.subscription-conteiner input,
+.user-navigation input,
+.feedback input{
+	font-size: 16px;
+  	line-height: 24px;
 
-
-
-
+	border-radius: 5px;
+	border: 1px rgba(178, 178, 178, 0.52) solid;
+}
+.subscription-conteiner input:hover,
+.user-navigation input:hover,
+.feedback input:hover{
+	border: 2px rgba(154, 154, 154, 0.52) solid;
+}
+.subscription-conteiner input:focus,
+.subscription-conteiner input:active,
+.user-navigation input:focus,
+.user-navigation input:active,
+.feedback input:focus,
+.feedback input:active{
+	border: 2px rgba(46, 136, 228, 0.52) solid;
+}
+.subscription-conteiner input:not(:placeholder-shown),
+.user-navigation input:not(:placeholder-shown),
+.feedback input:not(:placeholder-shown){
+	border: 1px rgba(178, 178, 178, 0.52) solid;
+ }
 
 
 
