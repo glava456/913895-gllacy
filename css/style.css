@@ -19,6 +19,7 @@ a{
 	text-align: center;
 	vertical-align: middle;
 	border-radius: 40px;
+	border: none;
 	padding: 15px 24px 14px 22px;
 	
 	background: linear-gradient(#f16743,#e84c36);
