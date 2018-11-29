@@ -73,12 +73,12 @@ background-color: #d07058;
 color: #ffffff;
 }
 .submenu{
-	/*display: none;*/
-	list-style: none;
+/*display: none;*/
+list-style: none;
 
-	
-	background-color: #f8f7f4;
-	box-shadow: 10px 20px 60px 0px #55665c;
+color: #323232;
+background-color: #f8f7f4;
+box-shadow: 10px 20px 60px 0px #55665c;
 }
 
 .submenu__link{
@@ -144,8 +144,17 @@ color: #323232;
 	border-bottom: 1px #e84d37 solid;
 }
 
+.info{
+	 background-image: url("img/wafer-fon.jpg");
+	 background-position: top center;
+ 	 background-repeat: no-repeat;
+	background-color: #eae3c7;
+	color: #323232;
+}
 
 
+	
+	 
 
 
 
