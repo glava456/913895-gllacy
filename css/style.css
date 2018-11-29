@@ -12,9 +12,9 @@ body{
 a{
 	text-decoration: none;
 }
-.popup{
-	display: none;
-}
+
+
+
 .button{
 	font: inherit;
 
@@ -49,29 +49,61 @@ background-color: #ad6655;
 .user-navigation {
   list-style: none;
 }
-.site-navigation a{
+.site-navigation__link {
   	color: #ffffff;
   	font-weight: bold;
   	padding: 10px 15px 10px 15px;
   	font-size: 16px;
 	line-height: 18px;
+
 }
-.site-navigation a:hover{
+.site-navigation__link:hover{
 	color: #323232;
 	background-color: #ffffff;
 	border-radius: 40px;
 }
-.site-navigation a:focus{
+.site-navigation__link:focus{
 box-shadow: inset 3px 4px 5px #8b8989;
 }
-.site-navigation a:active{
+.site-navigation__link:active{
 box-shadow: inset 3px 4px 5px #8b8989;
 }
 .site-navigation-current{
 background-color: #d07058;
 color: #ffffff;
 }
+.submenu{
+	/*display: none;*/
+	list-style: none;
 
+	
+	background-color: #f8f7f4;
+	box-shadow: 10px 20px 60px 0px #55665c;
+}
+
+.submenu__link{
+color: #323232;
+
+}
+.submenu li:nth-child(1){
+font-weight: bold; 
+ }
+.submenu__item:hover{
+background-color: #fbded7;
+color: #323232;
+}
+
+.submenu__item:focus,
+.submenu__item:active{
+background-color: #f6b5a5;
+color: #323232;
+}
+.submenu__item-current{
+background-color: #d07058;
+color: #323232;
+}
+
+/*!!!!Необходимо добавить активным ссылкам класс .submenu__item-current на страницах*/
 .user-navigation a{
 color: #ffffff;
 font-weight: bold;
@@ -111,8 +143,6 @@ color: #323232;
 	color: #e84d37;
 	border-bottom: 1px #e84d37 solid;
 }
-
-
 
 
 
