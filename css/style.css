@@ -322,6 +322,7 @@ h1.catalog{
 .main-navigation{
 	display: flex;
 	flex-direction:row;
+	justify-content:center;
 
 }
 
