@@ -316,4 +316,36 @@ h1.catalog{
 }
 .popup-basket {
 	display: none;
-}   
+} 
+/*******************************************Flex***************/
+
+.main-navigation{
+	display: flex;
+	flex-direction:row;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
