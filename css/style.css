@@ -325,7 +325,10 @@ h1.catalog{
 	justify-content:center;
 
 }
-
+.site-navigation{
+	padding: 0;
+	margin: 0;
+}
 .site-navigation-logo{
 	width: 154px;
 	height: 64px;
