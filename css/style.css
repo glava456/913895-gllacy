@@ -127,6 +127,19 @@ border-radius: 40px;
 color: #323232;
 background-color: #ffffff;
 }
+.time{
+	font-size: 14px;
+	line-height:16px;
+	font-weight: bold;
+	margin: 0;
+}
+.telefon{
+	font-size: 22px;
+	line-height:24px;
+	font-weight: bold;
+	margin: 0;
+} 
+
 
 .link-greenfon{
 	list-style: none;
@@ -322,7 +335,7 @@ h1.catalog{
 .main-navigation{
 	display: flex;
 	flex-direction:row;
-	justify-content: space-between;
+	justify-content:space-between;
 	outline: solid;
 	margin: 0 27px;
 	width: 1146px;
@@ -356,21 +369,108 @@ h1.catalog{
 
 	outline: solid;
 }
+/************************блок с часами работы и телефоном**
+.conteiner-nummer{
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-end;
+	outline: solid;
+	margin: 0 27px;
+	width: 1146px;
 
+}
+.wrapper-nummer{
+	display: flex;
+	flex-direction:column;
+	align-items:flex-end;
+	margin-left: auto;
+	outline: solid;
+	
+	width: 267px;
+}
+*************************/
+.info{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	outline: solid;
+	margin: 40px 27px;
+	padding: 30px 33px 26px 20px;
+	width: 1146px;
 
+}
+.info-list{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	outline: solid;
+	
+	width: 1146px;
 
+}
+.info-list{
+	margin: 0;
+	padding: 0;
+}
+.info-list-wrapper{
+	display: flex;
+	flex-direction:column;
+	align-items:space-between;
+	outline: solid;
 
+	width: 560px;
+}
+.conteiner-blog-subscription{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	outline: solid;
+	margin: 40px 27px;
+	width: 1146px;
+}
+.blog{
+	width: 560px;
+	margin-right:27px;
+}
+.subscription{
+	width: 560px;
+}
 
+.conteiner-social-links-web{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	outline: solid;
+	margin: 40px 27px;
+	width: 1146px;
 
+}
 
-
-
-
-
-
-
-
-
+.social{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	width: 265px;
+	margin: 0 27px;
+}
+.links{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	width: 560px;
+	margin: 0 27px;
+}
+.conteiner-links__item{
+	display: flex;
+	flex-direction:column;
+	align-items:space-between;
+	width: 267px;
+}
 
 
 

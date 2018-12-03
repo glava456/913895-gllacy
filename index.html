@@ -58,9 +58,13 @@
                </li>
                <li><a href="#">Корзина</a></li>
             </ul>
-      </nav>	
-         <p>С 10 до 20, ежедневно</p>
-         <p><a class="link-greenfon" href="#">8 812 450-25-25</a></p>
+      </nav>
+      <div class="conteiner-nummer">
+         <div class="wrapper-nummer">	
+            <p class="time">С 10 до 20, ежедневно</p>
+            <p class="telefon"><a class="link-greenfon" href="#">8 812 450-25-25</a></p>
+         </div> 
+      </div>     
    </header>
    <main>
       <h1 class="visually-hidden">Gllacy Shop - Магазин мороженного</h1>
@@ -130,14 +134,17 @@
          <h2 class="visually-hidden">Информация о магазине Глейси</h2>
          <h3>Магазин Глейси - это онлайн- и офлайн- магазин по продаже мороженного собственного производства на развес</h3>
          <ul class="info-list">
-            <li>
-               <div class="ice-cream"></div>
+            <div class="info-list-wrapper">
+               <li>
+                  <div class="ice-cream"></div>
                Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.                 
-            </li>
-            <li>
-               <div class="eco"></div>
+               </li>
+               <li>
+                  <div class="eco"></div>
                Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья
-            </li>
+               </li>
+            </div>
+            <div class="info-list-wrapper">
             <li>
                <div class="cow"></div>
                Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.
@@ -146,40 +153,42 @@
                <div class="thermometer"></div>
                Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.
             </li>	
+            </div>
          </ul>
       </section>
+      <div class="conteiner-blog-subscription">
+         <article class="blog">
+            <h2>Новое в нашем блоге</h2>
+            <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
+         </article>
 
-      <article class="blog">
-         <h2>Новое в нашем блоге</h2>
-         <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
-      </article>
+         <section class="subscription">
+            <div class="subscription-conteiner">
+               <h2 class="visually-hidden">Подписка нак рассылку</h2>
+               <p>Подпишитесь на нашу сладкую рассылку....</p>
+               <form action="https://echo.htmlacademy.ru" method="post" class="form">
+               <input type="email"  placeholder="Электронная почта">
+                  <button type="submit" class="button">Отправить</button>
+               </form>
+             </div>
+         </section> 
+      </div>
+         <section class="maps">
+            <img src="img/map.png" width="1250" height="430" alt="Глейси">
+         </section> 
 
-      <section class="subscription">
-         <div class="subscription-conteiner">
-            <h2 class="visually-hidden">Подписка нак рассылку</h2>
-            <p>Подпишитесь на нашу сладкую рассылку....</p>
-            <form action="https://echo.htmlacademy.ru" method="post" class="form">
-             <input type="email"  placeholder="Электронная почта">
-               <button type="submit" class="button">Отправить</button>
-            </form>
-         </div>
-      </section> 
-
-      <section class="maps">
-         <img src="img/map.png" width="1250" height="430" alt="Глейси">
-      </section> 
-
-       <section class="adress">
-         <p>Адрес главного офиса и офлайн-магазина:
+         <section class="adress">
+            <p>Адрес главного офиса и офлайн-магазина:
             <b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b>
-         </p>
-         <p>Для заказов по телефону:
-         <a class="link-whitefon" href="#">8 812 450-25-25</a>(с 10 до 20 ежедневно)</p>
-         <a class="button" href="#">Форма обратной связи</a>       
-      </section> 
+            </p>
+            <p>Для заказов по телефону:
+            <a class="link-whitefon" href="#">8 812 450-25-25</a>(с 10 до 20 ежедневно)</p>
+            <a class="button" href="#">Форма обратной связи</a>       
+         </section> 
    		
    </main>	
    <footer>
+      <div class="conteiner-social-links-web">
       <ul class="social">
          <li class="social__item">
             <a class="social__link social__link--twitter" href="#">
@@ -204,18 +213,22 @@
       </ul>
 
        <ul class="links">
-         <li>
-            <a class="link-greenfon" href="#">Для поставщиков</a>
-         </li>
-         <li>
-            <a class="link-greenfon" href="#">О производстве</a>
-         </li>
-         <li>
-            <a class="link-greenfon" href="#">Наши документы</a>
-         </li>
-         <li>
-            <a class="link-greenfon" href="#">Экологические стандарты</a>
-         </li>
+         <div class="conteiner-links__item">
+            <li class="links__item">
+               <a class="link-greenfon" href="#">Для поставщиков</a>
+            </li>
+            <li class="links__item">
+               <a class="link-greenfon" href="#">О производстве</a>
+            </li>
+         </div>
+         <div class="conteiner-links__item">
+            <li class="links__item">
+               <a class="link-greenfon" href="#">Наши документы</a>
+            </li>
+            <li class="links__item">
+               <a class="link-greenfon" href="#">Экологические стандарты</a>
+            </li>
+         </div>
       </ul>
   
       <section class="web">
@@ -226,6 +239,7 @@
                <a class="link-greenfon" href="#">HTML ACADEMY</a>
             </p>
       </section>
+      </div>
     </footer>
   
 
