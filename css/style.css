@@ -498,18 +498,20 @@ h1.catalog{
 .links{
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: auto;
 	display: flex;
 	flex-direction:row;
 	justify-content:center;
-	width: 560px;
-	
+	width: 356px;
+	flex-wrap:wrap;
+	outline: solid;
 }
-.conteiner-links__item{
-	display: flex;
-	flex-direction:column;
-	align-items:space-between;
-	width: 267px;
+.links__item{
+	width: 178px;
+	font-size: 13px;
+  	line-height: 18px;
+  	font-weight: normal;
+  	outline: solid;
 }
 .catalog-page{
 	margin: 13px 27px;
