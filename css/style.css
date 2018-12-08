@@ -65,6 +65,7 @@ input[type="radio"].visually-hidden {
 .button:active{
 	background: linear-gradient(#d74632,#e0603e);
 }
+
 .site-navigation,
 .user-navigation {
 	list-style: none;
@@ -74,7 +75,8 @@ input[type="radio"].visually-hidden {
   	font-weight: bold;
   	font-size: 16px;
 	line-height: 18px;
-
+	display: block;
+	padding: 10px 15px 10px 15px;
 	border-bottom: 1px #b5c4bc solid;
 	
 }
@@ -352,13 +354,12 @@ h1.catalog{
 	display: none;
 } 
 /*******************************************Flex***************/
-
+/******************Footer*******************************/
 .main-navigation{
 	display: flex;
 	flex-direction:row;
-	justify-content:space-between;
 	outline: solid;
-	margin: 0 27px;
+	margin: 9px 27px;
 	width: 1146px;
 
 }
@@ -369,7 +370,8 @@ h1.catalog{
 	flex-direction:row;
 	justify-content:flex-start;
 	width: 678px;
-	margin: 0 27px;
+	
+
 
 
 	outline: solid;
@@ -409,6 +411,7 @@ h1.catalog{
 	
 	width: 267px;
 }
+/************************************************************/
 .breadcrumbs{
 	padding: 0;
 	margin: 0;
