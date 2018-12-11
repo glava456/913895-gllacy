@@ -19,19 +19,19 @@ img{
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
-  position: absolute;
+  	position: absolute;
 
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+  	width: 1px;
+  	height: 1px;
+  	margin: -1px;
+  	border: 0;
+  	padding: 0;
 
-  white-space: nowrap;
+  	white-space: nowrap;
 
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  	clip-path: inset(100%);
+  	clip: rect(0 0 0 0);
+  	overflow: hidden;
 }
 
 .button{
@@ -112,49 +112,61 @@ input[type="radio"].visually-hidden {
 	position: relative;
 }
 .submenu{
+	font-size: 14px;
+	line-height: 16px;
 
-display: flex;
-flex-direction:column;
-align-content:stretch;
-flex-wrap: nowrap;
-list-style: none;
-padding:0;
-margin: 0;
+	list-style: none;
+	text-align: center;
+	padding:10px 0px;
 
-width: 143px;
-position: absolute;
-color: #323232;
-background-color: #f8f7f4;
-box-shadow: 10px 20px 60px 0px #55665c;
-border-radius: 5px;
+	width: 143px;
+	position: absolute;
+	color: #323232;
+	background-color: #f8f7f4;
+	box-shadow: 10px 20px 60px 0px #55665c;
+	border-radius: 5px;
 }
  .submenu__item{
-
+	margin-bottom:7px;
+	padding: 6px 0px;
  }
 .submenu__link{
-display: block;	
-color: #323232;
-width: 100%;
+	display: block;	
+	color: #323232;
 
-
+	
 }
 .submenu li:nth-child(1){
-font-weight: bold; 
+	margin-bottom:10px;
+	font-weight: bold; 
+	
  }
+ .submenu li:last-child{
+	margin-bottom:0px;
+}
+.submenu hr{
+	opacity: 0.2;
+	width: 128px;
+}
+ /*.submenu li:nth-child(1)::after {
+  content: "";
+  width: 38px;
+
+}*/
 
 .submenu__item:hover{
-background-color: #fbded7;
-color: #323232;
+	background-color: #fbded7;
+	color: #323232;
 }
 
 .submenu__item:focus,
 .submenu__item:active{
-background-color: #f6b5a5;
-color: #323232;
+	background-color: #f6b5a5;
+	color: #323232;
 }
 .submenu__item-current{
-background-color: #d07058;
-color: #323232;
+	background-color: #d07058;
+	color: #323232;
 }
 
 /*!!!!Необходимо добавить активным ссылкам класс .submenu__item-current на страницах*/
@@ -229,19 +241,19 @@ color: #323232;
 
 
 .user-navigation-entrance a{
-padding: 6px 17px 6px 23px;	
+	padding: 6px 17px 6px 23px;	
 }
 
 .user-navigation-basket a{
-padding: 6px 17px 6px 23px;	
+	padding: 6px 17px 6px 23px;	
 }
 
 
 .user-navigation a:hover,
 .user-navigation a:focus,
 .user-navigation a:active{
-color: #323232;
-background-color: #ffffff;
+	color: #323232;
+	background-color: #ffffff;
 }
 
 /*******************************************************/
@@ -298,20 +310,6 @@ background-color: #ffffff;
 }
 ******/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .time{
 	font-size: 14px;
 	line-height:16px;
@@ -339,7 +337,7 @@ background-color: #ffffff;
 }
 .link-whitefon{
 	list-style: none;
-color: #323232;
+	color: #323232;
 	border-bottom: 1px #b2b2b2 solid;
 
 }
@@ -355,8 +353,8 @@ color: #323232;
 	 background-image: url(../img/wafer-fon.jpg);
 	 background-position: top center;
  	 background-repeat: no-repeat;
-	background-color: #eae3c7;
-	color: #323232;
+ 	 background-color: #eae3c7;
+ 	 color: #323232;
 
 	font-size: 16px;
 	line-height: 22px;
@@ -367,7 +365,7 @@ color: #323232;
 	list-style: none;
 }
 .info h3{
-font-size: 24px;
+	font-size: 24px;
 	line-height: 30px;
 	font-weight: bold;
 }
@@ -397,8 +395,8 @@ font-size: 24px;
 }	
 .blog{
 	background-image: url(../img/blog-fon.jpg);
-	 background-position: top center;
- 	 background-repeat: no-repeat;
+	background-position: top center;
+ 	background-repeat: no-repeat;
 
  	background-color: #ffffff;
  	color: #323232; 
@@ -505,8 +503,6 @@ h1.catalog{
 	width: 725px;
 	flex-wrap:wrap;
 
-
-
 	outline: solid;
 }
 .site-navigation-logo{
@@ -583,8 +579,6 @@ h1.catalog{
 	background-position: center;
 	outline: solid;
 }
-
-
 
 
 .info{
@@ -686,8 +680,8 @@ h1.catalog{
 	margin-bottom: 40px;
 }
 .wrapper {
-  width: 1200px;
-  margin: auto;
+ 	width: 1200px;
+  	margin: auto;
   
 }
 
