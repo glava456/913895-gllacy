@@ -578,13 +578,15 @@ h1.catalog{
 	width: 265px;
 	margin: 0 27px;
 }
+/***********************************************************/
 .sentence-list{
 	list-style: none;
 	padding: 0;
+	margin: 0;
 	outline: solid;
 	display: flex;
 	flex-direction:row;
-	justify-content:flex-start;
+	justify-content:space-between;
 	
 	width: 1146px;
 }
@@ -592,22 +594,54 @@ h1.catalog{
 	background-image:url(../img/strawberry-fon.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
+	margin-right: 26px;
+
+	display: flex;
+	flex-direction:column;
+	align-items:flex-start;
+
 	width:560px;
 	padding:23px 30px 23px 20px;
-	margin-right: 26px;
-	outline: solid;
 
+	outline: solid;
 }
 .chocolate{
 	background-image:url(../img/chocolate-fon.jpg);
+
 	width: 560px;
 	padding:23px 30px 23px 20px;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	flex-direction:column;
+	align-items:flex-start;
+
 	outline: solid;
 }
 
+.berry a,
+.chocolate a{
+	align-self:flex-end;
+}
 
+
+
+
+.sentence-list h3{
+	font-size: 35px;
+	line-height: 41px;
+	margin: 0;
+}
+.sentence-list p{
+	font-size: 18px;
+	line-height: 22px;
+	margin: 20px 0 45px 0;
+}
+
+/**********************************************************/
 .info{
 	display: flex;
 	flex-direction:column;
