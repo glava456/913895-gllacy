@@ -112,7 +112,7 @@ input[type="radio"].visually-hidden {
 	position: relative;
 }
 .submenu{
-/*display: none;*/
+
 display: flex;
 flex-direction:column;
 align-content:stretch;
@@ -158,48 +158,74 @@ color: #323232;
 }
 
 /*!!!!Необходимо добавить активным ссылкам класс .submenu__item-current на страницах*/
+/******************************************************/
 .user-navigation a{
-color: #ffffff;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-background-color: #a1b4a9;
-border-radius: 40px;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	background-color: #a1b4a9;
+	border-radius: 40px;
 
-display: block;
+	display: block;
 
-margin: 12px 0px 12px 10px;
+	margin: 12px 0px 12px 10px;
 }
 
 .user-navigation-find a{
-width: 33px;
-height: 33px;	
+	width: 33px;
+	height: 33px;	
 }
 .user-navigation-find{
 	position: relative;
 }
 .user-find{
-	top:73px;
-	left: 600px;
-	position: absolute;
+	background-color:#f8f7f4;
+	color: #323232;
+	box-shadow: 10px 20px 60px 0px #55665c;
+	border-radius: 5px;
+	padding: 20px 10px 20px 10px;
 
+	top:73px;
+	left: 835px;
+	position: absolute;
 }
 .user-navigation-entrance{
 	position: relative;
 }
 .user-entrance{
+
 	background-color:#f8f7f4;
 	color: #323232;
-background-color: #f8f7f4;
-box-shadow: 10px 20px 60px 0px #55665c;
-border-radius: 5px;
+	box-shadow: 10px 20px 60px 0px #55665c;
+	border-radius: 5px;
+	padding: 20px;
 
+	position: absolute;
 	width: 277px;
 	top:59px;
-	left: 1000px;
-	position: absolute;
+	left: 960px;
+	
+	display: flex;
+	flex-direction:column;
+	align-content:stretch;
+	flex-wrap: nowrap;
+}
+.user-entrance,
+.user-find{
+	display: none;
+}
+.wrapper-entrance{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
 
 }
+.right-wrapper-entrance,
+.user-find{
+
+}
+
 
 
 .user-navigation-entrance a{
@@ -219,6 +245,73 @@ background-color: #ffffff;
 }
 
 /*******************************************************/
+.user-entrance input{
+	font-size: 14px;
+  	line-height: 24px;
+  	border-radius: 5px;
+	border: 1px rgba(178, 178, 178, 0.52) solid;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.user-find input{
+	border-radius: 5px;
+	border: 1px rgba(178, 178, 178, 0.52) solid;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 24px;
+
+	box-sizing: border-box;
+  	width: 311px;
+}
+
+.subscription-conteiner input,
+.feedback input{
+	font-size: 16px;
+  	line-height: 24px;
+
+	border-radius: 5px;
+	border: 1px rgba(178, 178, 178, 0.52) solid;
+}
+.subscription-conteiner input:hover,
+.user-navigation input:hover,
+.feedback input:hover{
+	border: 2px rgba(154, 154, 154, 0.52) solid;
+}
+.subscription-conteiner input:focus,
+.subscription-conteiner input:active,
+.user-navigation input:focus,
+.user-navigation input:active,
+.feedback input:focus,
+.feedback input:active{
+	border: 2px rgba(46, 136, 228, 0.52) solid;
+}
+.subscription-conteiner input:not(:placeholder-shown),
+.user-navigation input:not(:placeholder-shown),
+.feedback input:not(:placeholder-shown){
+	border: 1px rgba(178, 178, 178, 0.52) solid;
+ }
+
+
+/*****
+.feedback,.user-navigation form{
+	display: none;
+}
+******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .time{
 	font-size: 14px;
 	line-height:16px;
@@ -257,6 +350,7 @@ color: #323232;
 	border-bottom: 1px #e84d37 solid;
 }
 /**********************************************/
+
 .info{
 	 background-image: url(../img/wafer-fon.jpg);
 	 background-position: top center;
@@ -328,9 +422,8 @@ font-size: 24px;
 	padding: 5px;
 }
 .subscription-conteiner{
-	border-radius: 10px;
+	border-radius: 5px;
 	
-
 	background-color: #f8f7f4;
 	font-size: 16px;
 	line-height: 22px;
@@ -338,38 +431,7 @@ font-size: 24px;
 	color: #5a5a5a;
 }
 
-.subscription-conteiner input,
-.user-navigation input,
-.feedback input{
-	font-size: 16px;
-  	line-height: 24px;
 
-	border-radius: 5px;
-	border: 1px rgba(178, 178, 178, 0.52) solid;
-}
-.subscription-conteiner input:hover,
-.user-navigation input:hover,
-.feedback input:hover{
-	border: 2px rgba(154, 154, 154, 0.52) solid;
-}
-.subscription-conteiner input:focus,
-.subscription-conteiner input:active,
-.user-navigation input:focus,
-.user-navigation input:active,
-.feedback input:focus,
-.feedback input:active{
-	border: 2px rgba(46, 136, 228, 0.52) solid;
-}
-.subscription-conteiner input:not(:placeholder-shown),
-.user-navigation input:not(:placeholder-shown),
-.feedback input:not(:placeholder-shown){
-	border: 1px rgba(178, 178, 178, 0.52) solid;
- }
-/*****
-.feedback,.user-navigation form{
-	display: none;
-}
-******/
 .social {
 	list-style: none;
 }
@@ -459,7 +521,6 @@ h1.catalog{
 	display: flex;
 	flex-direction:row;
 	justify-content:flex-end;
-	
 	width: 267px;
 
 	outline: solid;
