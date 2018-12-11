@@ -505,6 +505,10 @@ h1.catalog{
 	font-weight: bold;
 	color: #ffffff;
 }
+.price span{
+	font-size: 30px;
+
+}
 .popup-basket {
 	display: none;
 } 
@@ -722,6 +726,7 @@ h1.catalog{
 .catalog-page{
 	margin: 13px 27px;
 }
+/***************************************************/
 .products-list{
 	display: flex;
 	flex-direction:row;
@@ -732,14 +737,60 @@ h1.catalog{
 	width: 1146px;
 	flex-wrap:wrap;
 }
-.products-item{
+.products-item {
 	display: flex;
-	flex-direction:row;
-	justify-content:space-between;
+	flex-direction:column;
+	align-content:space-between;
+	flex-wrap:wrap;
 	outline: solid;
 	width: 267px;
 	margin-bottom: 40px;
 }
+.fast-see{
+	display: none;
+   width: 200px;
+   margin: auto;
+}
+
+.products-list-link{
+	display: flex;
+	flex-direction:column;
+	align-content:space-between;
+	flex-wrap:wrap;
+	outline: solid;
+	width: 267px;
+	min-height: 345px;
+	margin-bottom:0px;
+
+	position: relative;
+}
+.products-item .hit{
+	order:1;
+}
+.products-item p{
+	margin-top: 214px;
+	order:2;
+}
+.products-item h3{
+	margin: 0;
+	text-align: center;
+	text-decoration: underline;
+	order:3;
+	
+}
+.products-item img{
+	position: absolute;
+}
+.products-item .hit,
+.products-item p,
+.products-item h3{
+	z-index: 3;
+}
+
+
+/*****************************************************/
+
+
 .wrapper {
  	width: 1200px;
   	margin: auto;
