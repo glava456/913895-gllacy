@@ -112,6 +112,7 @@ input[type="radio"].visually-hidden {
 	position: relative;
 }
 .submenu{
+	display: none;
 	font-size: 14px;
 	line-height: 16px;
 
@@ -179,19 +180,25 @@ input[type="radio"].visually-hidden {
 	background-color: #a1b4a9;
 	border-radius: 40px;
 
-	display: block;
+	
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
 
-	margin: 12px 0px 12px 10px;
+  	width: 33px;
+	height: 33px;
+	
 }
 
 .user-navigation-find a{
-	width: 33px;
-	height: 33px;	
+		
 }
+
 .user-navigation-find{
 	position: relative;
 }
 .user-find{
+
 	background-color:#f8f7f4;
 	color: #323232;
 	box-shadow: 10px 20px 60px 0px #55665c;
@@ -202,9 +209,26 @@ input[type="radio"].visually-hidden {
 	left: 835px;
 	position: absolute;
 }
+
 .user-navigation-entrance{
 	position: relative;
+	margin: 0 7px 0 7px;
 }
+
+.user-navigation-find:hover path,
+.user-navigation-find:focus path {
+  fill: #000000;
+}
+.user-navigation-entrance:hover path,
+.user-navigation-entrance:focus path {
+  fill: #000000;
+}
+.user-navigation-basket:hover path,
+.user-navigation-basket:focus path{
+  fill: #000000;
+}
+
+
 .user-entrance{
 
 	background-color:#f8f7f4;
@@ -238,16 +262,21 @@ input[type="radio"].visually-hidden {
 
 }
 
-
-
 .user-navigation-entrance a{
-	padding: 6px 17px 6px 23px;	
+	box-sizing:border-box;
+	text-align: center;
+	width: 93px;
+	display: block;
+	padding: 6px 0px 6px 0px;	
 }
 
 .user-navigation-basket a{
-	padding: 6px 17px 6px 23px;	
+	box-sizing:border-box;
+	text-align: center;
+	min-width: 100px;
+	display: block;
+	padding: 6px 0px 6px 0px;	
 }
-
 
 .user-navigation a:hover,
 .user-navigation a:focus,
@@ -518,6 +547,8 @@ h1.catalog{
 	flex-direction:row;
 	justify-content:flex-end;
 	width: 267px;
+	align-items: center;
+    
 
 	outline: solid;
 }
@@ -684,6 +715,17 @@ h1.catalog{
   	margin: auto;
   
 }
+.feedback{
+	display: fixed;
+	background-position: 0 0;
+	width: 478px;
+	min-height: 443px;
 
+	background-color:#f8f7f4;
+	color: #323232;
+	box-shadow: 10px 20px 60px 0px #55665c;
+	border-radius: 5px;
+	padding: 20px 10px 20px 10px;
+}
 
 
