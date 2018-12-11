@@ -41,7 +41,7 @@ input[type="radio"].visually-hidden {
 	vertical-align: middle;
 	border-radius: 40px;
 	border: none;
-	padding: 15px 24px 14px 22px;
+	padding: 15px 20px 15px 20px;
 	
 	background: linear-gradient(#f16743,#e84c36);
   	color: #ffffff;
@@ -391,7 +391,7 @@ input[type="radio"].visually-hidden {
 }
 .info{
 	box-sizing:border-box;
-	margin: 40px 0px;
+	margin: 0px;
 	
 	width: 1146px;
 
@@ -504,7 +504,7 @@ h1.catalog{
 .catalog-item{
 	list-style: none;
 	color: #ffffff;
-	border-bottom: 1px #b5c4bc solid;
+	
 
 	font-size: 16px;
   	line-height: 22px;
@@ -598,7 +598,7 @@ h1.catalog{
 .sentence-list{
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin-bottom: 40px;
 	outline: solid;
 	display: flex;
 	flex-direction:row;
@@ -610,7 +610,9 @@ h1.catalog{
 	background-image:url(../img/strawberry-fon.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	/*
+Нужен ли для выполнения критерия на переполняемость?
+	background-size: cover;*/
 	margin-right: 26px;
 
 	display: flex;
@@ -618,7 +620,7 @@ h1.catalog{
 	align-items:flex-start;
 
 	width:560px;
-	padding:23px 30px 23px 20px;
+	padding:30px 20px 0px 20px;
 
 	outline: solid;
 }
@@ -626,10 +628,10 @@ h1.catalog{
 	background-image:url(../img/chocolate-fon.jpg);
 
 	width: 560px;
-	padding:23px 30px 23px 20px;
+	padding:30px 20px 0px 20px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	/*background-size: cover;*/
 
 	display: flex;
 	flex-direction:column;
@@ -641,6 +643,8 @@ h1.catalog{
 .berry a,
 .chocolate a{
 	align-self:flex-end;
+	margin-bottom: 20px;
+
 }
 
 
@@ -654,7 +658,7 @@ h1.catalog{
 .sentence-list p{
 	font-size: 18px;
 	line-height: 22px;
-	margin: 20px 0 45px 0;
+	margin: 12px 0 40px 0;
 }
 
 /**********************************************************/
@@ -722,7 +726,7 @@ h1.catalog{
 	flex-direction:row;
 	justify-content:space-between;
 	outline: solid;
-	margin: 40px 0px;
+	
 	padding: 0;
 	width: 1146px;
 	flex-wrap:wrap;
@@ -734,7 +738,8 @@ h1.catalog{
 	flex-wrap:wrap;
 	outline: solid;
 	width: 267px;
-	margin-bottom: 40px;
+	
+	
 }
 .fast-see{
 	display: none;
@@ -759,6 +764,7 @@ h1.catalog{
 }
 .products-item p{
 	margin-top: 214px;
+	margin-bottom: 15px;
 	order:2;
 }
 .products-item h3{
