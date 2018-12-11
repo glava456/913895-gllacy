@@ -333,11 +333,7 @@ input[type="radio"].visually-hidden {
  }
 
 
-/*****
-.feedback,.user-navigation form{
-	display: none;
-}
-******/
+/************************************************/
 
 .time{
 	font-size: 14px;
@@ -715,17 +711,90 @@ h1.catalog{
   	margin: auto;
   
 }
+/******************************************/
 .feedback{
-	display: fixed;
-	background-position: 0 0;
+	display: none;
+	position: fixed;
+	box-sizing:border-box;
+	top: 328px;
+	left:50%;
+	margin-left: -239px;
+
 	width: 478px;
 	min-height: 443px;
 
 	background-color:#f8f7f4;
 	color: #323232;
 	box-shadow: 10px 20px 60px 0px #55665c;
-	border-radius: 5px;
-	padding: 20px 10px 20px 10px;
+	border-radius: 10px;
+	padding: 20px 24px 20px 24px;
+}
+.feedback h2{
+	font-size: 24px;
+	line-height: 28px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.close {
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  
+  width: 18px;
+  height: 18px;
+
+  font-size: 0;
+
+  background-color: transparent;
+  border: 0;
+
+  cursor: pointer;
 }
 
+.close::before,
+.close::after {
+  content: "";
 
+  position: absolute;
+  top: 10px;
+  left: 2px;
+
+  width: 18px;
+  height: 3px;
+
+  background-color: #323232;
+}
+
+.close::before {
+  transform: rotate(45deg);
+}
+
+.close::after {
+  transform: rotate(-45deg);
+}
+.feedback input{
+	border-radius: 5px;
+	border: 1px rgba(178, 178, 178, 0.52) solid;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
+
+	box-sizing: border-box;
+  	width: 267px;
+}
+.feedback textarea{
+	border-radius: 5px;
+	border: 1px rgba(178, 178, 178, 0.52) solid;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 25px;
+
+	box-sizing: border-box;
+  	width: 428px;
+  	height: 155px;
+}
+.feedback button{
+	margin-left: 295px;
+}
