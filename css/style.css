@@ -520,11 +520,47 @@ input[type="radio"].visually-hidden {
 /**********************************************************/
 .maps{
 	position: relative;
+	margin: 0;
+}
+.adress{
+	
+	position: absolute;
+	top:63px;
+	left: 871px;
+
+
+	width: 302px;
+	padding: 15px 25px 30px 25px;
+	box-sizing:border-box;
+	background-color:#f8f7f4;
+	color: #323232;
+	box-shadow: 10px 20px 60px 0px #55665c;
+	border-radius: 15px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.adress p{
+	margin-bottom: 10px;
+}
+.adress b{
+	font-size: 18px;
+	line-height: 24px;	
+}
+.adress .button{
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	padding: 12px 20px 12px 20px;
+
 }
 
-
-
-
+.adress .link-whitefon{
+	font-size: 18px;
+	line-height: 22px;
+	border-bottom: none;
+	font-weight: bold;
+}
 
 
 
