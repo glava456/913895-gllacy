@@ -382,6 +382,8 @@ input[type="radio"].visually-hidden {
  	 background-size: cover;
  	 color: #323232;
 
+ 	 border-radius: 15px;
+
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: normal;
@@ -412,43 +414,75 @@ input[type="radio"].visually-hidden {
 .info-list{
 	list-style: none;
 }
-.info-list-left,
-.info-list-right{
-	width: 530px;
+
+.info-list-item{
+	width: 470px;
+	position: relative;
+	padding-left: 76px;
+	padding-top: 17px;
 
 }
-.info-list-left{
-	align-items:flex-start;
+
+.info-list-item svg{
+	position: absolute;
+	left:0px;
+	top:0px;
 }
-.info-list-right{
-	align-items:flex-end;
-}
+
 .info h3{
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: bold;
 	margin: 0;
+	margin-bottom: 10px;
 }
-
+/********************************************************/
 .blog{
 	background-image: url(../img/blog-fon.jpg);
 	background-position: top center;
  	background-repeat: no-repeat;
+ 	padding: 28px 0px 23px 20px;
+ 	border-radius: 15px;
+ 	margin: 0;
 
  	background-color: #ffffff;
  	color: #323232; 
 }
 .blog h2{
+	margin: 0;
 	font-size: 16px;
 	line-height: 22px;
-	font-weight: medium;
+	font-weight: normal;
 }	 
 .blog a{
+	display: block;
 	color: #323232; 
 	text-decoration: underline;
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: bold;
+	width: 300px;
+}
+.blog{
+	width: 560px;
+	margin-right: 26px;
+	
+}
+
+
+/*********************************************************/
+.conteiner-blog-subscription{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	outline: solid;
+	margin: 40px 0px;
+	width: 1146px;
+}
+
+.subscription{
+	width: 560px;
+	border-radius: 15px;
 }
 .subscription{
 	background-image: url(../img/bg-post.svg);
@@ -457,14 +491,55 @@ input[type="radio"].visually-hidden {
 	padding: 5px;
 }
 .subscription-conteiner{
-	border-radius: 5px;
-	
+	border-radius: 15px;
+	padding: 15px 20px 15px 17px;
 	background-color: #f8f7f4;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: normal;
 	color: #5a5a5a;
 }
+.subscription-conteiner p{
+	margin-top: 16px;
+	margin-bottom: 36px;
+}
+.subscription-conteiner input{
+	box-sizing:border-box;
+	width: 364px;
+	padding: 10px;
+	margin-right: 10px;
+}
+.subscription-conteiner form {
+	margin-bottom: 18px;
+}
+.subscription-conteiner button {
+	padding: 10px 15px 10px 15px;
+}
+
+
+/**********************************************************/
+.maps{
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .social {
@@ -664,21 +739,7 @@ h1.catalog{
 /**********************************************************/
 
 /*************************************************************/
-.conteiner-blog-subscription{
-	display: flex;
-	flex-direction:row;
-	justify-content:space-between;
-	outline: solid;
-	margin: 40px 0px;
-	width: 1146px;
-}
-.blog{
-	width: 560px;
-	margin-right:27px;
-}
-.subscription{
-	width: 560px;
-}
+
 
 .conteiner-social-links-web{
 	display: flex;
@@ -739,7 +800,7 @@ h1.catalog{
 	outline: solid;
 	width: 267px;
 	
-	
+
 }
 .fast-see{
 	display: none;
