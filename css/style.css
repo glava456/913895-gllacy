@@ -108,11 +108,11 @@ input[type="radio"].visually-hidden {
 	line-height: 18px;
 	border-radius: 40px;
 }
-.site-navigation__item{
+.site-navigation li:nth-child(1){
 	position: relative;
 }
 .submenu{
-	display: block;
+	display:none;
 	font-size: 14px;
 	line-height: 16px;
 
