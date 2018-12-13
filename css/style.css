@@ -253,7 +253,7 @@ input[type="radio"].visually-hidden {
 }
 .wrapper-entrance{
 	display: flex;
-	flex-direction:row;
+
 	justify-content:space-around;
 
 }
@@ -400,7 +400,7 @@ input[type="radio"].visually-hidden {
 }
 .info-list{
 	display: flex;
-	flex-direction:row;
+
 	justify-content:space-between;
 	flex-wrap:wrap;
 
@@ -472,7 +472,7 @@ input[type="radio"].visually-hidden {
 /*********************************************************/
 .conteiner-blog-subscription{
 	display: flex;
-	flex-direction:row;
+
 	justify-content:space-between;
 	margin: 40px 0px;
 	width: 1146px;
@@ -619,7 +619,7 @@ h1.catalog{
 /******************Footer*******************************/
 .main-navigation{
 	display: flex;
-	flex-direction:row;
+
 	flex-wrap:wrap;
 
 	margin: 9px 27px 0px 27px;
@@ -630,7 +630,7 @@ h1.catalog{
 	padding: 0;
 	margin: 0;
 	display: flex;
-	flex-direction:row;
+
 	justify-content:flex-start;
 	width: 725px;
 	flex-wrap:wrap;
@@ -647,7 +647,7 @@ h1.catalog{
 	padding: 0;
 	margin: 0;
 	display: flex;
-	flex-direction:row;
+
 	justify-content:flex-end;
 	width: 267px;
 	align-items: center;
@@ -657,7 +657,7 @@ h1.catalog{
 /***********************************************************/
 .conteiner-nummer{
 	display: flex;
-	flex-direction:row;
+
 	justify-content: flex-end;
 
 	margin: 0 27px;
@@ -678,7 +678,7 @@ h1.catalog{
 	padding: 0;
 	margin: 0;
 	display: flex;
-	flex-direction:row;
+
 	justify-content:flex-start;
 	width: 265px;
 	margin: 0 27px;
@@ -690,7 +690,7 @@ h1.catalog{
 	margin-bottom: 40px;
 
 	display: flex;
-	flex-direction:row;
+
 	justify-content:space-between;
 	
 	width: 1146px;
@@ -757,7 +757,7 @@ h1.catalog{
 
 .conteiner-social-links-web{
 	display: flex;
-	flex-direction:row;
+
 	justify-content:space-between;
 
 	margin: 0px 27px;
@@ -769,7 +769,7 @@ h1.catalog{
 	padding: 36px 0px 29px 0px;
 	margin: 0;
 	display: flex;
-	flex-direction:row;
+	
 	justify-content:flex-start;
 	flex-wrap:wrap;
 	width: 265px;
@@ -798,7 +798,7 @@ h1.catalog{
 	margin: 0;
 	
 	display: flex;
-	flex-direction:row;
+	
 	justify-content:space-between;
 	width: 336px;
 	flex-wrap:wrap;
@@ -839,7 +839,7 @@ h1.catalog{
 
 .products-list{
 	display: flex;
-	flex-direction:row;
+	
 	justify-content:space-between;
 	
 	padding: 0;
