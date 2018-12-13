@@ -403,11 +403,8 @@ line-height: 24px;
 }
 .info-list{
 	display: flex;
-
 	justify-content:space-between;
 	flex-wrap:wrap;
-
-
 }
 .info-list{
 	margin: 0;
@@ -422,7 +419,6 @@ line-height: 24px;
 	position: relative;
 	padding-left: 76px;
 	padding-top: 17px;
-
 }
 
 .info-list-item svg{
@@ -430,7 +426,10 @@ line-height: 24px;
 	left:0px;
 	top:0px;
 }
-
+.info-list-item p{
+	margin: 0;
+	padding: 0;
+}
 .info h3{
 	font-size: 24px;
 	line-height: 30px;
