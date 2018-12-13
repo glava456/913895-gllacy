@@ -112,7 +112,7 @@ input[type="radio"].visually-hidden {
 	position: relative;
 }
 .submenu{
-	display: none;
+	display: block;
 	font-size: 14px;
 	line-height: 16px;
 
@@ -141,7 +141,19 @@ input[type="radio"].visually-hidden {
 	margin-bottom:10px;
 	font-weight: bold; 
 	
+	position: relative;
+	
  }
+.submenu li:nth-child(1):after {
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 1px;
+  background: #999999;
+  bottom: -10px;
+  left: 15px;
+}
+
  .submenu li:last-child{
 	margin-bottom:0px;
 }
