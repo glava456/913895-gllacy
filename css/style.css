@@ -404,7 +404,6 @@ input[type="radio"].visually-hidden {
 	justify-content:space-between;
 	flex-wrap:wrap;
 
-	outline: solid;
 
 }
 .info-list{
@@ -475,7 +474,6 @@ input[type="radio"].visually-hidden {
 	display: flex;
 	flex-direction:row;
 	justify-content:space-between;
-	outline: solid;
 	margin: 40px 0px;
 	width: 1146px;
 }
@@ -623,7 +621,7 @@ h1.catalog{
 	display: flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	outline: solid;
+
 	margin: 9px 27px 0px 27px;
 	width: 1146px;
 
@@ -637,12 +635,12 @@ h1.catalog{
 	width: 725px;
 	flex-wrap:wrap;
 
-	outline: solid;
+
 }
 .site-navigation-logo{
 	width: 154px;
 	height: 64px;
-	outline: solid;
+
 
 }
 .user-navigation{
@@ -654,8 +652,6 @@ h1.catalog{
 	width: 267px;
 	align-items: center;
     
-
-	outline: solid;
 }
 
 /***********************************************************/
@@ -663,7 +659,7 @@ h1.catalog{
 	display: flex;
 	flex-direction:row;
 	justify-content: flex-end;
-	outline: solid;
+
 	margin: 0 27px;
 	width: 1146px;
 
@@ -673,7 +669,7 @@ h1.catalog{
 	flex-direction:column;
 	align-items:flex-end;
 	margin-left: auto;
-	outline: solid;
+
 	
 	width: 267px;
 }
@@ -692,7 +688,7 @@ h1.catalog{
 	list-style: none;
 	padding: 0;
 	margin-bottom: 40px;
-	outline: solid;
+
 	display: flex;
 	flex-direction:row;
 	justify-content:space-between;
@@ -715,7 +711,7 @@ h1.catalog{
 	width:560px;
 	padding:30px 20px 0px 20px;
 
-	outline: solid;
+
 }
 .chocolate{
 	background-image:url(../img/chocolate-fon.jpg);
@@ -730,7 +726,7 @@ h1.catalog{
 	flex-direction:column;
 	align-items:flex-start;
 
-	outline: solid;
+
 }
 
 .berry a,
@@ -763,7 +759,7 @@ h1.catalog{
 	display: flex;
 	flex-direction:row;
 	justify-content:space-between;
-	outline: solid;
+
 	margin: 0px 27px;
 	width: 1146px;
 
@@ -777,7 +773,7 @@ h1.catalog{
 	justify-content:flex-start;
 	flex-wrap:wrap;
 	width: 265px;
-	outline: solid;
+
 
 }
 .social a{
@@ -806,16 +802,14 @@ h1.catalog{
 	justify-content:space-between;
 	width: 336px;
 	flex-wrap:wrap;
-	outline: solid;
+
 }
 .links__item{
 	width: 168px;
 	font-size: 13px;
   	line-height: 18px;
   	font-weight: normal;
-
-  	outline: solid;
-}
+  }
 
 .links__item svg{
 	position: absolute;
@@ -838,18 +832,6 @@ h1.catalog{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /****************************************************/
 .catalog-page{
 	margin: 13px 27px;
@@ -859,7 +841,6 @@ h1.catalog{
 	display: flex;
 	flex-direction:row;
 	justify-content:space-between;
-	outline: solid;
 	
 	padding: 0;
 	width: 1146px;
@@ -870,7 +851,7 @@ h1.catalog{
 	flex-direction:column;
 	align-content:space-between;
 	flex-wrap:wrap;
-	outline: solid;
+
 	width: 267px;
 	
 
@@ -886,7 +867,7 @@ h1.catalog{
 	flex-direction:column;
 	align-content:space-between;
 	flex-wrap:wrap;
-	outline: solid;
+
 	width: 267px;
 	min-height: 345px;
 	margin-bottom:0px;
