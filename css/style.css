@@ -35,8 +35,6 @@ input[type="radio"].visually-hidden {
 }
 
 .button{
-	font: inherit;
-
 	text-align: center;
 	vertical-align: middle;
 	border-radius: 40px;
@@ -202,10 +200,6 @@ input[type="radio"].visually-hidden {
 	
 }
 
-.user-navigation-find a{
-		
-}
-
 .user-navigation-find{
 	position: relative;
 }
@@ -358,26 +352,26 @@ line-height: 24px;
 } 
 
 /************************************************/
-.link-greenfon{
+.link-green-fon{
 	list-style: none;
 	color: #ffffff;
 	border-bottom: 1px #b5c4bc solid;
 }
-.link-greenfon:hover,
-.link-greenfon:focus,
-.link-greenfon:active{
+.link-green-fon:hover,
+.link-green-fon:focus,
+.link-green-fon:active{
 	color: #ffbc9e;
 	border-bottom: 1px #ffbc9e solid;
 }
-.link-whitefon{
+.link-white-fon{
 	list-style: none;
 	color: #323232;
 	border-bottom: 1px #b2b2b2 solid;
 
 }
-.link-whitefon:hover,
-.link-whitefon:focus,
-.link-whitefon:active{
+.link-white-fon:hover,
+.link-white-fon:focus,
+.link-white-fon:active{
 	color: #e84d37;
 	border-bottom: 1px #e84d37 solid;
 }
@@ -559,7 +553,7 @@ line-height: 24px;
 	padding: 12px 20px 12px 20px;
 
 }
-.adress .link-whitefon{
+.adress .link-white-fon{
 	font-size: 18px;
 	line-height: 22px;
 	border-bottom: none;
@@ -699,19 +693,16 @@ h1.catalog{
 	margin-bottom: 40px;
 
 	display: flex;
-
-	justify-content:space-between;
-	
 	width: 1146px;
 }
 .berry{
 	background-image:url(../img/strawberry-fon.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	/*
-Нужен ли для выполнения критерия на переполняемость?
-	background-size: cover;*/
+	
+	background-size: cover;
 	margin-right: 26px;
+	border-radius: 10px;
 
 	display: flex;
 	flex-direction:column;
@@ -729,7 +720,8 @@ h1.catalog{
 	padding:30px 20px 0px 20px;
 	background-repeat: no-repeat;
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: cover;
+	border-radius: 10px;
 
 	display: flex;
 	flex-direction:column;
@@ -779,7 +771,6 @@ h1.catalog{
 	margin: 0;
 	display: flex;
 	
-	justify-content:flex-start;
 	flex-wrap:wrap;
 	width: 265px;
 
