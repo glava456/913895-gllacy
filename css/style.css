@@ -222,7 +222,7 @@ input[type="radio"].visually-hidden {
 	position: absolute;
 }
 .user-find{
-	display: block;
+	display: none;
 }
 /******************************************************/
 .user-navigation-find:hover path,
@@ -267,7 +267,7 @@ input[type="radio"].visually-hidden {
 	width: 241px;
 }
 .user-entrance{
-	display: block;
+	display: none;
 }
 
 .wrapper-entrance{
@@ -350,11 +350,11 @@ line-height: 24px;
 	font-weight: bold;
 	margin: 0;
 }
-.telefon{
+.phone{
 	font-size: 22px;
 	line-height:24px;
 	font-weight: bold;
-	margin: 0;
+	
 } 
 
 /************************************************/
