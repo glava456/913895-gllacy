@@ -217,16 +217,14 @@ input[type="radio"].visually-hidden {
 	border-radius: 5px;
 	padding: 20px 10px 20px 10px;
 
-	top:73px;
-	left: 835px;
+	top:37px;
+	left: -301px;
 	position: absolute;
 }
-
-.user-navigation-entrance{
-	position: relative;
-	margin: 0 7px 0 7px;
+.user-find{
+	display: block;
 }
-
+/******************************************************/
 .user-navigation-find:hover path,
 .user-navigation-find:focus path {
   fill: #000000;
@@ -239,41 +237,47 @@ input[type="radio"].visually-hidden {
 .user-navigation-basket:focus path{
   fill: #000000;
 }
-
-
+/********************************************************/
+.user-navigation-entrance{
+	position: relative;
+	margin: 0 7px 0 7px;
+}
 .user-entrance{
-
+	box-sizing:border-box;
 	background-color:#f8f7f4;
 	color: #323232;
 	box-shadow: 10px 20px 60px 0px #55665c;
 	border-radius: 5px;
-	padding: 20px;
+	padding: 20px 17px 20px 19px;
 
 	position: absolute;
 	width: 277px;
-	top:59px;
+	top:62px;
 	left: 960px;
 	
-	display: flex;
-	flex-direction:column;
-	align-content:stretch;
-	flex-wrap: nowrap;
 }
-.user-entrance,
-.user-find{
-	display: none;
+.user-entrance input{
+	box-sizing:border-box;
+	font-size: 14px;
+  	line-height: 24px;
+  	border-radius: 5px;
+	border: 1px rgba(178, 178, 178, 0.52) solid;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 241px;
 }
+.user-entrance{
+	display: block;
+}
+
 .wrapper-entrance{
 	display: flex;
-
 	justify-content:space-around;
-
 }
-.right-wrapper-entrance,
-.user-find{
-
+.right-wrapper-entrance{
+font-size: 13px;
+line-height: 24px;
 }
-
 .user-navigation-entrance a{
 	box-sizing:border-box;
 	text-align: center;
@@ -281,7 +285,7 @@ input[type="radio"].visually-hidden {
 	display: block;
 	padding: 6px 0px 6px 0px;	
 }
-
+/*******************************************************/
 .user-navigation-basket a{
 	box-sizing:border-box;
 	text-align: center;
@@ -298,14 +302,7 @@ input[type="radio"].visually-hidden {
 }
 
 /*******************************************************/
-.user-entrance input{
-	font-size: 14px;
-  	line-height: 24px;
-  	border-radius: 5px;
-	border: 1px rgba(178, 178, 178, 0.52) solid;
-	padding: 10px;
-	margin-bottom: 20px;
-}
+
 .user-find input{
 	border-radius: 5px;
 	border: 1px rgba(178, 178, 178, 0.52) solid;
