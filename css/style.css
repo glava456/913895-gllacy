@@ -310,6 +310,7 @@ line-height: 24px;
 
 .subscription-conteiner input,
 .feedback input{
+
 	font-size: 16px;
   	line-height: 24px;
 
@@ -320,6 +321,8 @@ line-height: 24px;
 .user-navigation input:hover,
 .feedback input:hover{
 	border: 2px rgba(154, 154, 154, 0.52) solid;
+	padding-top: 9px;
+	padding-bottom: 9px;
 }
 .subscription-conteiner input:focus,
 .subscription-conteiner input:active,
@@ -328,6 +331,8 @@ line-height: 24px;
 .feedback input:focus,
 .feedback input:active{
 	border: 2px rgba(46, 136, 228, 0.52) solid;
+	padding-top: 9px;
+	padding-bottom: 9px;
 }
 .subscription-conteiner input:not(:placeholder-shown),
 .user-navigation input:not(:placeholder-shown),
@@ -446,6 +451,8 @@ line-height: 24px;
  	border-radius: 15px;
  	margin: 0;
 
+	width: 560px;
+	margin-right: 26px;
  	background-color: #ffffff;
  	color: #323232; 
 }
@@ -464,11 +471,6 @@ line-height: 24px;
 	font-weight: bold;
 	width: 300px;
 }
-.blog{
-	width: 560px;
-	margin-right: 26px;
-	
-}
 
 
 /*********************************************************/
@@ -481,16 +483,17 @@ line-height: 24px;
 }
 
 .subscription{
+	box-sizing:border-box;
 	width: 560px;
 	border-radius: 15px;
-}
-.subscription{
+
 	background-image: url(../img/bg-post.svg);
 	background-position: top center;
  	background-repeat: no-repeat;
 	padding: 5px;
 }
 .subscription-conteiner{
+
 	border-radius: 15px;
 	padding: 15px 20px 15px 17px;
 	background-color: #f8f7f4;
@@ -509,10 +512,10 @@ line-height: 24px;
 	padding: 10px;
 	margin-right: 10px;
 }
-.subscription-conteiner form {
+.subscription-conteiner form{
 	margin-bottom: 18px;
 }
-.subscription-conteiner button {
+.subscription-conteiner button{
 	padding: 10px 15px 10px 15px;
 }
 
@@ -877,7 +880,7 @@ h1.catalog{
 	order:1;
 }
 .products-item p{
-	margin-top: 214px;
+	margin-top: 150px;
 	margin-bottom: 15px;
 	order:2;
 }
@@ -888,8 +891,10 @@ h1.catalog{
 	order:3;
 	
 }
-.products-item img{
+.products-view{
 	position: absolute;
+	top:0;
+	left:0;
 }
 .products-item .hit,
 .products-item p,
@@ -985,6 +990,7 @@ h1.catalog{
 	font-size: 14px;
 	line-height: 24px;
 	margin-bottom: 25px;
+	resize:none/vertical;
 
 	box-sizing: border-box;
   	width: 428px;
