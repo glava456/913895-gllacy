@@ -101,7 +101,7 @@ input[type="radio"].visually-hidden {
 	font-weight: bold;
 	display: block;
   	padding: 10px 15px 10px 15px;
-  	margin: 12px 0px 12px 10px;
+  	margin: 12px -10px 12px 10px;
   	font-size: 16px;
 	line-height: 18px;
 	border-radius: 40px;
@@ -583,16 +583,15 @@ input[type="radio"].visually-hidden {
  	background-repeat: no-repeat;
  }
 /*************************catalog.html********************/
-.breadcrumbs{
-	list-style: none;
-	font-size: 14px;
-  	line-height: 16px;
-  	font-weight: normal;
-}
-h1.catalog{
+
+.catalog{
+	margin: 0;
 	font-size: 35px;
   	line-height: 41px;
   	font-weight: bold;
+}
+.catalog-page{
+	margin: 5px 27px;
 }
 .products-list{
 	list-style: none;
@@ -613,13 +612,81 @@ h1.catalog{
 	font-weight: bold;
 	color: #ffffff;
 }
+
 .price span{
 	font-size: 30px;
 
 }
-.popup-basket {
+.products-list{
+	display: flex;
+	
+	justify-content:space-between;
+	
+	padding: 0;
+	width: 1146px;
+	flex-wrap:wrap;
+}
+.products-item {
+	display: flex;
+	flex-direction:column;
+	align-content:space-between;
+	flex-wrap:wrap;
+
+	width: 267px;
+	
+
+}
+.fast-see{
 	display: none;
-} 
+   width: 200px;
+   margin: auto;
+}
+
+.products-list-link{
+	display: flex;
+	flex-direction:column;
+	align-content:space-between;
+	flex-wrap:wrap;
+
+	width: 267px;
+	min-height: 345px;
+	margin-bottom:0px;
+
+	position: relative;
+}
+.products-item .hit{
+	order:1;
+}
+.price{
+	margin-top: 150px;
+	margin-bottom: 15px;
+	order:2;
+}
+.inner-page .price{
+	margin-top: 215px;
+	margin-bottom: 15px;
+	order:2;
+}
+
+.products-item h3{
+	margin: 0;
+	text-align: center;
+	text-decoration: underline;
+	order:3;
+	
+}
+.products-view{
+	position: absolute;
+	top:0;
+	left:0;
+}
+.products-item .hit,
+.products-item p,
+.products-item h3{
+	z-index: 3;
+}
+ 
+
 /*******************************************Flex***************/
 /******************Footer*******************************/
 .main-navigation{
@@ -662,31 +729,43 @@ h1.catalog{
 /***********************************************************/
 .conteiner-number{
 	display: flex;
+	justify-content: space-between;
+	margin-left: 27px;
 
-	justify-content: flex-end;
-
-	margin: 0 27px;
+	
 	width: 1146px;
 
+}
+.breadcrumbs{
+	list-style: none;
+	padding: 0;
+	padding-top: 25px;
+	margin: 0;
+	display: flex;
+
+	justify-content:flex-start;
+	font-size: 14px;
+  	line-height: 16px;
+  	font-weight: normal;
+  	min-width: 267px;
+}
+.breadcrumbs .link-green-ground,
+.breadcrumbs-current{
+	margin-right: 5px;
 }
 .wrapper-number{
 	display: flex;
 	flex-direction:column;
 	align-items:flex-end;
 	margin-left: auto;
-
-	
 	width: 267px;
-}
-/************************************************************/
-.breadcrumbs{
-	padding: 0;
-	margin: 0;
-	display: flex;
 
-	justify-content:flex-start;
-	width: 265px;
-	margin: 0 27px;
+}
+
+/*************************Формы для КАТАЛОГ*****************/
+.inner-page .forms{
+	display: block;
+	height: 180px;
 }
 /***********************************************************/
 .sentence-list{
@@ -839,72 +918,8 @@ h1.catalog{
 
 
 /****************************************************/
-.catalog-page{
-	margin: 13px 27px;
-}
 
-.products-list{
-	display: flex;
-	
-	justify-content:space-between;
-	
-	padding: 0;
-	width: 1146px;
-	flex-wrap:wrap;
-}
-.products-item {
-	display: flex;
-	flex-direction:column;
-	align-content:space-between;
-	flex-wrap:wrap;
 
-	width: 267px;
-	
-
-}
-.fast-see{
-	display: none;
-   width: 200px;
-   margin: auto;
-}
-
-.products-list-link{
-	display: flex;
-	flex-direction:column;
-	align-content:space-between;
-	flex-wrap:wrap;
-
-	width: 267px;
-	min-height: 345px;
-	margin-bottom:0px;
-
-	position: relative;
-}
-.products-item .hit{
-	order:1;
-}
-.products-item p{
-	margin-top: 150px;
-	margin-bottom: 15px;
-	order:2;
-}
-.products-item h3{
-	margin: 0;
-	text-align: center;
-	text-decoration: underline;
-	order:3;
-	
-}
-.products-view{
-	position: absolute;
-	top:0;
-	left:0;
-}
-.products-item .hit,
-.products-item p,
-.products-item h3{
-	z-index: 3;
-}
 
 
 /*****************************************************/
