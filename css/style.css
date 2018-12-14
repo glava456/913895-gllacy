@@ -829,7 +829,11 @@ h1.catalog{
 	line-height:18px;
 
 }
-.web p{
+.htmlacademy-logo{
+	width: 108px;
+	height: 39px;
+}
+.web-item{
 	margin: 0;
 }
 
