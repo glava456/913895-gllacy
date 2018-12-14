@@ -269,8 +269,8 @@ input[type="radio"].visually-hidden {
 	justify-content:space-around;
 }
 .right-wrapper-entrance{
-font-size: 13px;
-line-height: 24px;
+	font-size: 13px;
+	line-height: 24px;
 }
 .user-navigation-entrance a{
 	box-sizing:border-box;
@@ -357,26 +357,26 @@ line-height: 24px;
 } 
 
 /************************************************/
-.link-green-fon{
+.link-green-ground{
 	list-style: none;
 	color: #ffffff;
 	border-bottom: 1px #b5c4bc solid;
 }
-.link-green-fon:hover,
-.link-green-fon:focus,
-.link-green-fon:active{
+.link-green-ground:hover,
+.link-green-ground:focus,
+.link-green-ground:active{
 	color: #ffbc9e;
 	border-bottom: 1px #ffbc9e solid;
 }
-.link-white-fon{
+.link-white-ground{
 	list-style: none;
 	color: #323232;
 	border-bottom: 1px #b2b2b2 solid;
 
 }
-.link-white-fon:hover,
-.link-white-fon:focus,
-.link-white-fon:active{
+.link-white-ground:hover,
+.link-white-ground:focus,
+.link-white-ground:active{
 	color: #e84d37;
 	border-bottom: 1px #e84d37 solid;
 }
@@ -555,7 +555,7 @@ line-height: 24px;
 	padding: 12px 20px 12px 20px;
 
 }
-.adress .link-white-fon{
+.adress .link-white-ground{
 	font-size: 18px;
 	line-height: 22px;
 	border-bottom: none;
@@ -1000,6 +1000,8 @@ h1.catalog{
   	width: 428px;
   	height: 155px;
 }
-.feedback button{
-	margin-left: 295px;
+.wrapp-button{
+display: flex;
+justify-content:flex-end;
+}
 }
