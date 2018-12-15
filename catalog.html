@@ -48,7 +48,34 @@
                   </a>
                </li>
             </ul>
-
+            <div class="basket">              
+               
+                        <div class="wrap-basket">
+                           <button type="button" class="but">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><path fill="#231F20" d="M10.979.728l-.708-.707L5.5 4.792.729.021.021.728 4.793 5.5.021 10.271l.707.708L5.5 6.207l4.771 4.772.708-.708L6.207 5.5z"/></svg> 
+                           </button>
+                           <img class="image-basket" src="img/orange.png" width="20" height="20" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
+                           <a class="product-name" href="#">Пломбир с апельсиновым джемом</a>
+                           <div class="product-price">1,5 кг x 
+                              <span>200 руб.</span>
+                           </div>
+                           <div class="product-price">300 руб</div>
+                        </div>
+                        <div class="wrap-basket">
+                           <button type="button" class="but">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><path fill="#231F20" d="M10.979.728l-.708-.707L5.5 4.792.729.021.021.728 4.793 5.5.021 10.271l.707.708L5.5 6.207l4.771 4.772.708-.708L6.207 5.5z"/></svg>
+                           </button>
+                           <img class="image-basket" src="img/strawberry.png" width="20" height="20" alt="Сливочно-клучничное с присыпкой из белого шоколада">
+                           <a class="product-name" href="#">Клубничный пломбир с присыпкой из белого шоколада</a>
+                           <div class="product-price">1,5 кг x <span>300 руб.</span></div>
+                           <div class="product-price">450 руб</div>
+                        </div>
+                
+                        <div class="buy">                  
+                           <p class="check">Итого: 750 руб.</p>                  
+                           <a class="button" href="#">Оформить заказ</a> 
+                        </div> 
+                   </div>  
              <form class="user-entrance" action="https://echo.htmlacademy.ru" method="post">
                <input type="email" name="email" placeholder="Электронная почта">
                <input type="password" name="password" placeholder="Пароль">
@@ -245,23 +272,34 @@
     </section>
 
     <section class="pagination">
-      <ul>
-         <li class="pagination-current"><a href="">1</a></li>
-         <li>
-            <a href="">2</a>
+      <ul class="pagination-list">
+         <li class="pagination-item">
+            <a class="pagination-item__link" href="">
+
+            </a>
          </li>
-         <li>
-            <a href="">3</a>
+         <li class="pagination-item current">
+
+            <a class="pagination-item__link" href="">1</a>
          </li>
-         <li>
-            <a href="">4</a>
+         <li class="pagination-item">
+            <a class="pagination-item__link" href="">2</a>
          </li>
-         <li>
-            <a href="">5</a>
+         <li class="pagination-item">
+            <a class="pagination-item__link" href="">3</a>
          </li>
-         <li>
-            <a href="">></a>
+         <li class="pagination-item">
+            <a class="pagination-item__link" href="">4</a>
          </li>
+         <li class="pagination-item">
+            <a class="pagination-item__link" href="">5</a>
+         </li>
+         <li class="pagination-item">
+            <a class="pagination-item__link" href="">
+               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><path fill="#C1C6CE" d="M7.237 5.642L1.73.132c-.2-.197-.52-.197-.717 0s-.198.52 0 .717L6.163 6l-5.15 5.15c-.2.198-.2.52 0 .717.098.1.228.148.357.148.13 0 .26-.05.358-.148l5.51-5.51c.198-.197.198-.517 0-.715z"/></svg>
+            </a>
+         </li>
+         
       </ul>
    </section>
    </main>	
@@ -325,27 +363,6 @@
       </div>
     </footer>
  </div>
-    <div class="popup-basket">              
-               <table>
-                  <tr>
-                     <td><button type="button" class="close">Закрыть</button></td>
-                     <td><img src="img/orange.png" width="20" height="20" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой"></td>
-                     <td><a href="#">Пломбир с апельсинеовым джемом</a></td>
-                     <td>1,5 кг x 200 руб.</td>
-                     <td>300 руб</td>
-                   </tr>
-                   <tr>
-                     <td><button type="button" class="close">Закрыть</button></td>
-                     <td><img src="img/strawberry.png" width="20" height="20" alt="Сливочно-клучничное с присыпкой из белого шоколада"></td>
-                     <td><a href="#">Клубничный пломбир с присыпкой из белого шоколада</a></td>
-                     <td>1,5 кг x 300 руб.</td>
-                     <td>450 руб</td>
-                   </tr>
-                </table>
-                <div class="buy">                  
-                  <p>Итого: 750 руб.</p>                  
-                  <a class="button" href="#">Оформить заказ</a> 
-                </div> 
-             </div>        
+   
 </body>
 </html>
