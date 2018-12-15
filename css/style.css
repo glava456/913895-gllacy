@@ -110,7 +110,7 @@ input[type="radio"].visually-hidden {
 	position: relative;
 }
 .submenu{
-	display:block;
+	display:none;
 	font-size: 14px;
 	line-height: 16px;
 
@@ -292,7 +292,9 @@ input[type="radio"].visually-hidden {
 .user-navigation-basket{
 	position: relative;
 }
+
 .basket{
+	display: none;
 	position: absolute;
 	top:61px;
 	left: 865px;
@@ -350,10 +352,12 @@ input[type="radio"].visually-hidden {
 	display: flex;
 	flex-direction:column;
 	}
-.check,.buy .button{
+.check{
 	align-self:flex-end;
+	font-weight: bold;
 }
 .buy .button{
+	align-self:flex-end;
 	padding: 10px 15px 10px 15px;
 }
 .but{
@@ -923,7 +927,7 @@ input[type="radio"].visually-hidden {
 	display: flex;
 	
 	flex-wrap:wrap;
-	width: 265px;
+	min-width: 245px;
 
 
 }
@@ -945,7 +949,7 @@ input[type="radio"].visually-hidden {
 /****************************************************/
 .links{
 	list-style: none;
-	padding: 36px 0px 29px 0px;
+	padding: 27px 0px 31px 0px;
 	margin: 0;
 	
 	display: flex;
