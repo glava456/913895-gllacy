@@ -1003,12 +1003,14 @@ input[type="radio"].visually-hidden {
 }
 /******************************************/
 .feedback{
-	display: none;
+	display: block;
 	position: fixed;
 	box-sizing:border-box;
-	top: 328px;
+	top: 50%;
 	left:50%;
-	margin-left: -239px;
+	transform:translate(-50%, -50%);
+	z-index: 4;
+	
 
 	width: 478px;
 	min-height: 443px;
