@@ -765,12 +765,9 @@ input[type="radio"].visually-hidden {
 /******************Footer*******************************/
 .main-navigation{
 	display: flex;
-
 	flex-wrap:wrap;
 
 	margin: 9px 27px 0px 27px;
-	
-
 }
 .site-navigation{
 	padding: 0;
@@ -1083,7 +1080,7 @@ input[type="radio"].visually-hidden {
 	font-size: 14px;
 	line-height: 24px;
 	margin-bottom: 25px;
-	resize:none/vertical;
+	resize:vertical;
 
 	box-sizing: border-box;
   	width: 428px;
