@@ -138,20 +138,28 @@
             <div class="fat">
                <p>Жирность:</p>
                <div class="fat-items">
-               <label>
-                  <input type="radio" name="question-fat" value="0%">
+               <label class="fat-radio">
+                  <input type="radio" name="question-fat" value="0%" class="visually-hidden">
+                  <span class="radio-indicator off">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg></span>
                   <span>0%</span>
                </label>
-               <label>
-                  <input type="radio" name="question-fat" value="10%" checked>
+               <label class="fat-radio">
+                  <input type="radio" name="question-fat" value="10%" checked class="visually-hidden">
+                  <span class="radio-indicator on">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg></span>
                   <span>до 10%</span>
                </label>
-               <label>
-                  <input type="radio" name="question-fat" value="30%">
+                <label class="fat-radio">
+                  <input type="radio" name="question-fat" value="30%" class="visually-hidden">
+                  <span class="radio-indicator off">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg></span>
                   <span>до 30%</span>
                </label>
-               <label>
-                  <input type="radio" name="question-fat" value="under30%">
+               <label class="fat-radio">
+                  <input type="radio" name="question-fat" value="under30%" class="visually-hidden">
+                  <span class="radio-indicator off">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg></span>
                   <span>выше 30%</span>
                </label>
                </div>
@@ -161,24 +169,47 @@
                <div class="extender">
                   <p>Наполнители</p>
                   <div class="extender-items">
-                  <input type="checkbox" name="chocolate" id="chocolate" checked>
-                  <label for="chocolate">шоколадные</label>
+                   <label class="extender-checkbox">   
+                     <input type="checkbox" name="chocolate" class="visually-hidden" checked>
+                     <span class="checkbox-indicator on">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg></span>
 
-                  <input type="checkbox" name="sugar" id="sugar" checked>
-                  <label for="sugar">сахарные присыпки</label>
+                     <span>шоколадные</span>
+                  </label>
+                  <label class="extender-checkbox">   
+                  <input type="checkbox" name="sugar" class="visually-hidden" checked>
+                   <span class="checkbox-indicator on">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg></span>
+                   <span>сахарные присыпки</span>
+                </label>
 
-                  <input type="checkbox" name="fruits" id="fruits">
-                  <label for="fruits">фрукты</label>
+                 <label class="extender-checkbox">   
+                  <input type="checkbox" name="fruits" class="visually-hidden">
+                   <span class="checkbox-indicator off">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 23 23"><path fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg></span>
+                   <span>фрукты</span>
+                   </label>
 
-                  <input type="checkbox" name="sirup" id="sirup">
-                  <label for="sirup">сиропы</label>
+                   <label class="extender-checkbox">   
+                  <input type="checkbox" name="sirup" class="visually-hidden">
+                 <span class="checkbox-indicator off">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 23 23"><path fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg></span>
+                   <span>сиропы</span>
+                   </label>
 
-                  <input type="checkbox" name="jam" id="jam">
-                  <label for="jam">джемы</label>
+                   <label class="extender-checkbox">  
+
+                  <input type="checkbox" name="jam" class="visually-hidden">
+                  <span class="checkbox-indicator off">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 23 23"><path fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg></span>
+                   <span>джемы</span>
+
+                   </label>
                   </div>
                </div>
                <div class="wrapper-forms-button">
-               <button class="forms-button" type="submit" value="Применить">Применить</button>
+                  <input class="forms-button" type="submit" value="Применить">
+            
                </div>
             </div>
          </form>
