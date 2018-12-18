@@ -1105,13 +1105,116 @@ input[type="radio"].visually-hidden {
 
 
 
-/*****************************************************/
-
+/******************Слайдер*************************/
 
 .wrapper {
  	width: 1200px;
   	margin: auto;
+  min-width: 940px;
+  background-color: #849d8f;
+  background-image: url(../img/slider1.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+
+ transition: background-image 0.5s ease, background-color 0.5s ease;
+}
+.container {
   
+}
+.slider {
+  position: relative;
+  
+  padding-top: 321px;
+  
+  text-align: center;
+  color: #ffffff;
+}
+.slider-list {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+.visually-hidden-slade{
+	position: absolute;
+
+  	width: 1px;
+	height: 1px;
+
+	clip: rect(0, 0, 0, 0);
+}
+
+.slide-title {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+  
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 800;
+}
+.slider-controls label {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 8px;
+
+  vertical-align: top;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-controls {
+  position: absolute;
+  bottom: 63px;
+  left: 0;
+  z-index: 20;
+  
+  font-size: 0;
+}
+.slide {
+  display: none;
+}
+#product-1:checked ~ .wrapper {
+  background-color: #849d8f;
+  background-image: url(../img/slider1.png);
+}
+
+#product-2:checked ~ .wrapper {
+  background-color: #8996a6;
+  background-image: url(../img/slider2.png);
+}
+
+#product-3:checked ~ .wrapper {
+  background-color: #9d8b84;
+  background-image: url(../img/slider3.png);
+}
+
+#product-1:checked ~ .wrapper #slide1,
+#product-2:checked ~ .wrapper #slide2,
+#product-3:checked ~ .wrapper #slide3 {
+  display: block;
+}
+#product-1:checked ~ .wrapper label[for="product-1"],
+#product-2:checked ~ .wrapper label[for="product-2"],
+#product-3:checked ~ .wrapper label[for="product-3"] {
+  background-color: #ffffff;
+}
+.wrapper::before,
+.wrapper::after {
+  content: "";
+
+  visibility: hidden;
+}
+
+.wrapper::before {
+  background-image: url(../img/slider2.png);
+}
+
+.wrapper::after {
+  background-image: url(../img/slider3.png);
 }
 /******************************************/
 .feedback{
