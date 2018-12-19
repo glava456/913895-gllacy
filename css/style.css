@@ -544,6 +544,7 @@ input[type="radio"].visually-hidden {
 
 	justify-content:space-between;
 	margin: 40px 0px;
+	
 }
 
 .subscription{
@@ -684,28 +685,51 @@ input[type="radio"].visually-hidden {
 }
 .products-list{
 	display: flex;
-	
 	justify-content:space-between;
-	
-	padding: 0;
-	
 	flex-wrap:wrap;
+	padding: 0;
+	position: relative;
+	
 }
 .products-item {
-	display: flex;
-	flex-direction:column;
-	align-content:space-between;
-	flex-wrap:wrap;
-
 	width: 267px;
-	
-
+	position: relative;
 }
 .fast-see{
 	display: none;
+	box-sizing:border-box;
    width: 200px;
-   margin: auto;
+   position: absolute;
+   top: 328px;
+   left: 36px;
+   padding: 12px 16px 12px 16px;
+   z-index: 101;
 }
+.ice-cream-item-inner:hover {
+    z-index: 100;
+}
+
+.products-item:hover .fast-see, .products-item:hover::before {
+    display: block;
+}
+
+.products-item::before {
+    display: none;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -65px;
+    background-color: rgba(248, 247, 244, 0.3);
+    transition: background-color .5s ease;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 20px 20px rgba(50, 50, 50, 0.3);
+    padding-bottom: 20px;
+}
+
 
 .products-list-link{
 	display: flex;
@@ -717,7 +741,7 @@ input[type="radio"].visually-hidden {
 	min-height: 345px;
 	margin-bottom:0px;
 
-	position: relative;
+	
 }
 .products-item .hit{
 	order:1;
