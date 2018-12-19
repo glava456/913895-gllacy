@@ -234,6 +234,35 @@ input[type="radio"].visually-hidden {
 	position: relative;
 	margin: 0 7px 0 7px;
 }
+
+.after-entrance:after {
+  content:'';
+  position: absolute;
+  left: 18px;
+  top: 6px;
+  background-image: url(../img/entrance-white.svg);
+	 background-position: top center;
+ 	 background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.after-entrance:hover:after{
+	background-image: url(../img/entrance.svg);
+}
+.after-basket:after {
+  content:'';
+  position: absolute;
+  left: 18px;
+  top: 6px;
+  background-image: url(../img/basket.svg);
+	 background-position: top center;
+ 	 background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.after-basket:hover:after{
+	background-image: url(../img/basket-red.svg);
+}
 .user-entrance{
 	box-sizing:border-box;
 	background-color:#f8f7f4;
@@ -284,7 +313,7 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 	min-width: 100px;
 	display: block;
-	padding: 6px 0px 6px 0px;	
+	padding: 8px 0px 8px 25px;	
 }
 
 .user-navigation a:hover,
