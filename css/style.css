@@ -465,12 +465,10 @@ input[type="radio"].visually-hidden {
 	font-weight: normal;
 	padding: 23px 30px 23px 20px;
 
-	
-}
-.info{
 	box-sizing:border-box;
 	margin: 0px;
 }
+
 .info-list{
 	display: flex;
 	justify-content:space-between;
@@ -739,8 +737,6 @@ input[type="radio"].visually-hidden {
 
 	width: 267px;
 	min-height: 345px;
-	margin-bottom:0px;
-
 	
 }
 .products-item .hit{
