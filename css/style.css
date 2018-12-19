@@ -377,7 +377,7 @@ input[type="radio"].visually-hidden {
   	width: 311px;
 }
 
-.subscription-conteiner input,
+.subscription-container input,
 .feedback input{
 
 	font-size: 16px;
@@ -386,15 +386,15 @@ input[type="radio"].visually-hidden {
 	border-radius: 5px;
 	border: 1px rgba(178, 178, 178, 0.52) solid;
 }
-.subscription-conteiner input:hover,
+.subscription-container input:hover,
 .user-navigation input:hover,
 .feedback input:hover{
 	border: 2px rgba(154, 154, 154, 0.52) solid;
 	padding-top: 9px;
 	padding-bottom: 9px;
 }
-.subscription-conteiner input:focus,
-.subscription-conteiner input:active,
+.subscription-container input:focus,
+.subscription-container input:active,
 .user-navigation input:focus,
 .user-navigation input:active,
 .feedback input:focus,
@@ -403,7 +403,7 @@ input[type="radio"].visually-hidden {
 	padding-top: 9px;
 	padding-bottom: 9px;
 }
-.subscription-conteiner input:not(:placeholder-shown),
+.subscription-container input:not(:placeholder-shown),
 .user-navigation input:not(:placeholder-shown),
 .feedback input:not(:placeholder-shown){
 	border: 1px rgba(178, 178, 178, 0.52) solid;
@@ -543,7 +543,7 @@ input[type="radio"].visually-hidden {
 
 
 /*********************************************************/
-.conteiner-blog-subscription{
+.container-blog-subscription{
 	display: flex;
 
 	justify-content:space-between;
@@ -561,7 +561,7 @@ input[type="radio"].visually-hidden {
  	background-repeat: no-repeat;
 	padding: 5px;
 }
-.subscription-conteiner{
+.subscription-container{
 
 	border-radius: 15px;
 	padding: 15px 20px 15px 17px;
@@ -571,20 +571,20 @@ input[type="radio"].visually-hidden {
 	font-weight: normal;
 	color: #5a5a5a;
 }
-.subscription-conteiner p{
+.subscription-container p{
 	margin-top: 16px;
 	margin-bottom: 36px;
 }
-.subscription-conteiner input{
+.subscription-container input{
 	box-sizing:border-box;
 	width: 364px;
 	padding: 10px;
 	margin-right: 10px;
 }
-.subscription-conteiner form{
+.subscription-container form{
 	margin-bottom: 18px;
 }
-.subscription-conteiner button{
+.subscription-container button{
 	padding: 10px 15px 10px 15px;
 }
 
@@ -799,7 +799,7 @@ input[type="radio"].visually-hidden {
 }
 
 /***********************************************************/
-.inner-page .conteiner-number{
+.inner-page .container-number{
 	display: flex;
 	justify-content: space-between;
 	margin-left: 27px;
@@ -1021,7 +1021,7 @@ input[type="radio"].visually-hidden {
 /*************************************************************/
 
 
-.conteiner-social-links-web{
+.container-social-links-web{
 	display: flex;
 
 	justify-content:space-between;
