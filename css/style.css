@@ -470,9 +470,6 @@ input[type="radio"].visually-hidden {
 .info{
 	box-sizing:border-box;
 	margin: 0px;
-	
-	width: 1146px;
-
 }
 .info-list{
 	display: flex;
@@ -547,7 +544,6 @@ input[type="radio"].visually-hidden {
 
 	justify-content:space-between;
 	margin: 40px 0px;
-	width: 1146px;
 }
 
 .subscription{
@@ -692,7 +688,7 @@ input[type="radio"].visually-hidden {
 	justify-content:space-between;
 	
 	padding: 0;
-	width: 1146px;
+	
 	flex-wrap:wrap;
 }
 .products-item {
@@ -1026,7 +1022,7 @@ input[type="radio"].visually-hidden {
 	justify-content:space-between;
 
 	margin: 0px 27px;
-	width: 1146px;
+	
 
 }
 
