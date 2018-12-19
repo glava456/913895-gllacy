@@ -589,8 +589,12 @@ input[type="radio"].visually-hidden {
 
 /**********************************************************/
 .maps{
+	
 	position: relative;
 	margin: 0;
+	background-image: url(../img/map.png);
+	width:1250px;
+	height:430px;
 }
 .adress{	
 	position: absolute;
