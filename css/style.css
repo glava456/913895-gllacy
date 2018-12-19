@@ -36,7 +36,6 @@ input[type="radio"].visually-hidden {
 
 .button{
 	text-align: center;
-	vertical-align: middle;
 	border-radius: 40px;
 	border: none;
 	padding: 15px 20px 15px 20px;
