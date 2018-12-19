@@ -799,14 +799,14 @@ input[type="radio"].visually-hidden {
 }
 
 /***********************************************************/
-.conteiner-number{
+.inner-page .conteiner-number{
 	display: flex;
 	justify-content: space-between;
 	margin-left: 27px;
-
-	
 	width: 1146px;
-
+}
+.inner-page .wrapper-number{
+	margin-right: 0;
 }
 .breadcrumbs{
 	list-style: none;
@@ -831,6 +831,7 @@ input[type="radio"].visually-hidden {
 	align-items:flex-end;
 	margin-left: auto;
 	width: 267px;
+	margin-right: 27px;
 
 }
 .breadcrumbs span{
@@ -1106,8 +1107,12 @@ input[type="radio"].visually-hidden {
 
 
 /******************Слайдер*************************/
+ .wrapper {
+	width: 1200px;
+  	margin: auto;
+}
 
-.wrapper {
+.wrapper-slide {
  	width: 1200px;
   	margin: auto;
   min-width: 940px;
@@ -1175,43 +1180,43 @@ input[type="radio"].visually-hidden {
 .slide {
   display: none;
 }
-#product-1:checked ~ .wrapper {
+#product-1:checked ~ .wrapper-slide {
   background-color: #849d8f;
   background-image: url(../img/slider1.png);
 }
 
-#product-2:checked ~ .wrapper {
+#product-2:checked ~ .wrapper-slide {
   background-color: #8996a6;
   background-image: url(../img/slider2.png);
 }
 
-#product-3:checked ~ .wrapper {
+#product-3:checked ~ .wrapper-slide {
   background-color: #9d8b84;
   background-image: url(../img/slider3.png);
 }
 
-#product-1:checked ~ .wrapper #slide1,
-#product-2:checked ~ .wrapper #slide2,
-#product-3:checked ~ .wrapper #slide3 {
+#product-1:checked ~ .wrapper-slide #slide1,
+#product-2:checked ~ .wrapper-slide #slide2,
+#product-3:checked ~ .wrapper-slide #slide3 {
   display: block;
 }
-#product-1:checked ~ .wrapper label[for="product-1"],
-#product-2:checked ~ .wrapper label[for="product-2"],
-#product-3:checked ~ .wrapper label[for="product-3"] {
+#product-1:checked ~ .wrapper-slide label[for="product-1"],
+#product-2:checked ~ .wrapper-slide label[for="product-2"],
+#product-3:checked ~ .wrapper-slide label[for="product-3"] {
   background-color: #ffffff;
 }
-.wrapper::before,
-.wrapper::after {
+.wrapper-slide::before,
+.wrapper-slide::after {
   content: "";
 
   visibility: hidden;
 }
 
-.wrapper::before {
+.wrapper-slide::before {
   background-image: url(../img/slider2.png);
 }
 
-.wrapper::after {
+.wrapper-slide::after {
   background-image: url(../img/slider3.png);
 }
 /******************************************/
