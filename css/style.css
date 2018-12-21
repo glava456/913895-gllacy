@@ -294,7 +294,7 @@ input[type="radio"].visually-hidden {
 	display: none;
 }
 
-.user-navigation-entrance:hover .user-entrance{
+.user-navigation-entrance:hover.user-entrance {
   display: block;
 }
 
