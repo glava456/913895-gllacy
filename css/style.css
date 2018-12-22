@@ -944,6 +944,7 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 15px;
 }
 .sorting{
+	position: relative;
 	min-width: 194px;
 	margin-right: 14px;
 
@@ -960,7 +961,7 @@ input[type="radio"].visually-hidden {
 	min-width: 703px;
 	margin-right: 14px;
 }
-.sort, 
+
 .price-rub-item,
 .fat-items,
 .extender-items{
@@ -973,7 +974,31 @@ input[type="radio"].visually-hidden {
 	line-height: 18px;
 	border: none;
 }
+.sort{
+	
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #a1b4a9;
+	border-radius: 40px;
+	padding: 9px 51px 9px 16px;
+	font-size: 16px;
+	line-height: 18px;
+	border: none;
+	 appearance: none;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+} 
+.sorting:after {
+  content:'';
+  position: absolute;
+  left: 168px;
+  top: 35px;
+  background:url(../img/icon-down-dir.svg);
+	
+  width: 10px;
+  height: 10px;
 
+}
 .wrapper-forms-button{
 	align-self:flex-end;
 }
