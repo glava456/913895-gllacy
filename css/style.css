@@ -251,6 +251,13 @@ input[type="radio"].visually-hidden {
 .after-entrance:hover:after{
 	background-image: url(../img/entrance.svg);
 }
+.user-entrance{
+	display: none;
+}
+
+.after-entrance:hover .user-entrance{
+  display: block;
+}
 .after-basket:after {
   content:'';
   position: absolute;
@@ -290,13 +297,7 @@ input[type="radio"].visually-hidden {
 	width: 241px;
 }
 
-.user-entrance{
-	display: none;
-}
 
-.user-navigation-entrance:hover.user-entrance {
-  display: block;
-}
 
 .wrapper-entrance{
 	display: flex;
@@ -1270,7 +1271,7 @@ input[type="radio"].visually-hidden {
 }
 
 #product-3:checked ~ .site-wrapper {
-  background-color: #9d8b84;
+  background-color: #a58c85;
   background-image: url(../img/slider3.png);
 }
 
