@@ -176,7 +176,10 @@ input[type="radio"].visually-hidden {
 	background-color: #d07058;
 	color: #323232;
 }
-.site-navigation li:nth-child(1):hover .submenu{
+.site-navigation li:nth-child(1):hover .submenu,
+.site-navigation li:nth-child(1):active .submenu,
+.site-navigation li:nth-child(1):focus .submenu,
+.site-navigation li:nth-child(1):visited .submenu{
 	display: block;
 }
 
@@ -215,16 +218,20 @@ input[type="radio"].visually-hidden {
 .user-find{
 	display: none;
 }
+.user-navigation-find:active .user-find,
 .user-navigation-find:hover .user-find,
-.user-navigation-find:focus .user-find,
-.user-navigation-find:active .user-find{
+.user-navigation-find:focus .user-find
+{
 	display: block;
 }
 /******************************************************/
+
+.user-navigation-find:active path,
 .user-navigation-find:hover path,
-.user-navigation-find:focus path,
-.user-navigation-find:visited path {
-  fill: #000000;
+.user-navigation-find:visited path,
+.user-navigation-find:focus path
+{
+	fill: #000;
 }
 
 /********************************************************/
@@ -303,13 +310,7 @@ input[type="radio"].visually-hidden {
 	font-size: 13px;
 	line-height: 24px;
 }
-.user-navigation-entrance a{
-	box-sizing:border-box;
-	text-align: center;
-	width: 93px;
-	display: block;
-	padding: 6px 0px 6px 0px;	
-}
+
 /*******************************************************/
 .user-navigation-entrance a,
  .user-navigation-basket a{
@@ -326,6 +327,10 @@ input[type="radio"].visually-hidden {
 	color: #323232;
 	background-color: #ffffff;
 }
+
+
+
+
 .user-navigation-basket{
 	position: relative;
 }
