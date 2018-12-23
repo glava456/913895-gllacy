@@ -215,22 +215,18 @@ input[type="radio"].visually-hidden {
 .user-find{
 	display: none;
 }
-.user-navigation-find:hover .user-find{
+.user-navigation-find:hover .user-find,
+.user-navigation-find:focus .user-find,
+.user-navigation-find:active .user-find{
 	display: block;
 }
 /******************************************************/
 .user-navigation-find:hover path,
-.user-navigation-find:focus path {
+.user-navigation-find:focus path,
+.user-navigation-find:visited path {
   fill: #000000;
 }
-.user-navigation-entrance:hover path,
-.user-navigation-entrance:focus path {
-  fill: #000000;
-}
-.user-navigation-basket:hover path,
-.user-navigation-basket:focus path{
-  fill: #000000;
-}
+
 /********************************************************/
 .user-navigation-entrance{
 	position: relative;
@@ -575,8 +571,11 @@ input[type="radio"].visually-hidden {
 	line-height: 30px;
 	font-weight: bold;
 	width: 300px;
+	border-bottom: none;
 }
-
+.blog a:hover{
+	border-bottom: none;
+}
 
 /*********************************************************/
 .container-blog-subscription{
