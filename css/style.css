@@ -1050,20 +1050,33 @@ input[type="radio"].visually-hidden {
 
 .prev,
 .next {
-  background-image: url(../img/filter-button.svg);
+  font-size: 0;
   width: 20px;
   height: 20px;
-  position: absolute;
-  top:-8px;
+  border: none;
   border-radius: 50%;
+  position: relative;
 }
-
+.prev:after,
+.next:after{
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  background: #999999;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .prev {
-  left: 142px;
+  left: 145px;
+    top: -10px;
 }
 
 .next {
-  left: 50px;
+  left: 10px;
+  top: -10px;
 }
 .sort{
 	
