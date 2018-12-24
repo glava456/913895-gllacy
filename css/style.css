@@ -41,7 +41,8 @@ input[type="radio"].visually-hidden {
 	border: none;
 	padding: 15px 20px 15px 20px;
 	cursor: pointer;
-	
+
+	background-color:#e84c36;
 	background: linear-gradient(#f16743,#e84c36);
   	color: #ffffff;
   	font-size: 18px;
