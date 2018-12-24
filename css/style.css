@@ -1085,6 +1085,7 @@ input[type="radio"].visually-hidden {
   border-radius: 15px;
 }
 .sort{
+	box-sizing:border-box;
 	color: #ffffff;
 	font-weight: normal;
 	background-color: transparent;
@@ -1103,12 +1104,13 @@ input[type="radio"].visually-hidden {
   left: 168px;
   top: 35px;
   background:url(../img/icon-down-dir.svg);
-	
+width: 194px;
   width: 10px;
   height: 10px;
 }
 .sort:focus {
 	box-sizing:border-box;
+width: 194px;
   color: black;
   background: white;
 }
