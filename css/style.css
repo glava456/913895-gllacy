@@ -192,7 +192,9 @@ input[type="radio"].visually-hidden {
 
 /*!!!!Необходимо добавить активным ссылкам класс .submenu__item-current на страницах*/
 /******************************************************/
-.user-navigation a{
+.user-navigation-link,
+.user-entrance-link,
+.user-basket-link{
 	display: block;
 	color: #ffffff;
 	font-weight: normal;
@@ -202,8 +204,6 @@ input[type="radio"].visually-hidden {
 	border-radius: 40px;	
 	height: 33px;
 }
-
-
 
 .user-navigation-find{
 	position: relative;
@@ -271,13 +271,14 @@ input[type="radio"].visually-hidden {
 .after-entrance:hover:after{
 	background-image: url(../img/entrance.svg);
 }
-.user-entrance{
+.wrapper-user-entrance{
 	display: none;
 }
-
-.after-entrance:hover .user-entrance{
+.user-navigation-entrance:hover .wrapper-user-entrance {
   display: block;
 }
+
+
 .after-basket:after {
   content:'';
   position: absolute;
@@ -293,6 +294,7 @@ input[type="radio"].visually-hidden {
 .after-basket:focus:after,
 .after-basket:active:after{
 	background-image: url(../img/basket-black.svg);
+
 }
 .user-entrance{
 	box-sizing:border-box;
@@ -304,8 +306,8 @@ input[type="radio"].visually-hidden {
 
 	position: absolute;
 	width: 277px;
-	top:62px;
-	left: 960px;
+	top:37px;
+	left: -175px;
 	
 }
 .user-entrance input{
@@ -331,8 +333,8 @@ input[type="radio"].visually-hidden {
 }
 
 /*******************************************************/
-.user-navigation-entrance a,
- .user-navigation-basket a{
+.user-entrance-link,
+ .user-basket-link{
 	box-sizing:border-box;
 	text-align: center;
 	min-width: 100px;
@@ -461,9 +463,15 @@ input[type="radio"].visually-hidden {
 .feedback input:not(:placeholder-shown){
 	border: 1px rgba(178, 178, 178, 0.52) solid;
  }
-.user-navigation a:hover,
-.user-navigation a:focus,
-.user-navigation a:active{
+.user-basket-link:hover,
+.user-entrance-link:hover,
+.user-navigation-link:hover,
+.user-entrance-link:focus,
+.user-basket-link:focus,
+.user-navigation-link:focus,
+.user-basket-link:active,
+.user-entrance-link:active,
+.user-navigation-link:active{
 	color: #323232;
 	background-color: #ffffff;
 }
@@ -944,6 +952,7 @@ input[type="radio"].visually-hidden {
 	margin-left: auto;
 	width: 267px;
 	margin-right: 27px;
+	margin-top: -55px;
 
 }
 .breadcrumbs span{
