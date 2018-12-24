@@ -1080,9 +1080,9 @@ input[type="radio"].visually-hidden {
 }
 .sorting-select{
 	box-sizing:border-box;
- background: #a1b4a9;
-  width: 194px;
-  border-radius: 15px;
+	background: #a1b4a9;
+  	width: 194px;
+  	border-radius: 15px;
 }
 .sort{
 	box-sizing:border-box;
@@ -1099,20 +1099,20 @@ input[type="radio"].visually-hidden {
  -moz-appearance: none;
 } 
 .sorting:after {
-  content:'';
-  position: absolute;
-  left: 168px;
-  top: 35px;
-  background:url(../img/icon-down-dir.svg);
-width: 194px;
-  width: 10px;
-  height: 10px;
+  	content:'';
+  	position: absolute;
+  	left: 168px;
+  	top: 35px;
+  	background:url(../img/icon-down-dir.svg);
+	width: 194px;
+  	width: 10px;
+  	height: 10px;
 }
 .sort:focus {
 	box-sizing:border-box;
-width: 194px;
-  color: black;
-  background: white;
+	width: 194px;
+  	color: black;
+  	background: white;
 }
 
 .wrapper-forms-button{
@@ -1543,43 +1543,32 @@ justify-content:flex-end;
 	padding: 0;
 }
 
-
 .pagination-list{
 	
-	position: relative;
 	list-style: none;
 	display: flex;
 	justify-content:flex-end;
+
 	color: #323232;
 	margin-right: 5px;
-	padding-right: 34px;
+	
 }
-.pagination-list:before{
-	content: "";
-
-  position: absolute;
-  top: 25px;
-  left: 945px;
-
-  width: 8px;
-  height: 12px;
-
-  background-image: url(../img/icon-right-small.svg);
+.pagination-item__back{
+	display: block;
+	margin: 22px 0px 22px 20px;
+	width: 8px;
+  	height: 12px;
+  	background-image: url(../img/icon-right-small.svg);
 }
-.pagination-list::before {
+.pagination-item__back {
   transform: rotate(180deg);
 }
-.pagination-list:after{
-	content: "";
-
-  position: absolute;
-  top: 25px;
-  left: 1130px;
-
-  width: 8px;
-  height: 12px;
-
-  background-image: url(../img/icon-right-small-white.svg);
+.pagination-item__forward{
+	display: block;
+  	width: 8px;
+  	height: 12px;
+    margin: 22px 0px 22px 20px;
+  	background-image: url(../img/icon-right-small-white.svg);
 }
 
 .pagination-item__link{
@@ -1590,7 +1579,7 @@ justify-content:flex-end;
 	display: block;
 	
 	margin: 22px 0px 22px 20px;
-	border-bottom: 1px #b5c4bc solid;
+	border-bottom: none;
 	
 }
 .pagination-item__link:hover{
