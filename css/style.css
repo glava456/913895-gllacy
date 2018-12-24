@@ -185,6 +185,7 @@ input[type="radio"].visually-hidden {
 /*!!!!Необходимо добавить активным ссылкам класс .submenu__item-current на страницах*/
 /******************************************************/
 .user-navigation a{
+	display: block;
 	color: #ffffff;
 	font-weight: normal;
 	font-size: 14px;
@@ -193,15 +194,35 @@ input[type="radio"].visually-hidden {
 	border-radius: 40px;
 
 	
-	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 33px;
-	height: 33px;	
+	height: 33px;
+	
+  	
 }
+
+
 
 .user-navigation-find{
 	position: relative;
+	width: 33px;
+	height: 33px;
+
+}
+.after-find:after{
+	content:'';
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  background-image: url(../img/loupe.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 33px;
+
+}
+.after-find:hover:after,
+.after-find:focus:after,
+.after-find:active:after{
+	background-image: url(../img/loupe-black.svg);
 }
 .user-find{
 	background-color:#f8f7f4;
@@ -217,23 +238,16 @@ input[type="radio"].visually-hidden {
 .user-find{
 	display: none;
 }
+
 .user-navigation-find:active .user-find,
 .user-navigation-find:hover .user-find,
 .user-navigation-find:focus .user-find
 {
 	display: block;
 }
-/******************************************************/
 
-.user-navigation-find:active path,
-.user-navigation-find:hover path,
-.user-navigation-find:visited path,
-.user-navigation-find:focus path
-{
-	fill: #000;
-}
+/*************************************************/
 
-/********************************************************/
 .user-navigation-entrance{
 	position: relative;
 	margin: 0 7px 0 7px;
@@ -271,7 +285,9 @@ input[type="radio"].visually-hidden {
   width: 20px;
   height: 20px;
 }
-.after-basket:hover:after{
+.after-basket:hover:after,
+.after-basket:focus:after,
+.after-basket:active:after{
 	background-image: url(../img/basket-black.svg);
 }
 .user-entrance{
@@ -319,15 +335,6 @@ input[type="radio"].visually-hidden {
 	display: block;
 	padding: 8px 0px 8px 25px;	
 }
-
-.user-navigation a:hover,
-.user-navigation a:focus,
-.user-navigation a:active{
-	color: #323232;
-	background-color: #ffffff;
-}
-
-
 
 
 .user-navigation-basket{
@@ -449,7 +456,12 @@ input[type="radio"].visually-hidden {
 .feedback input:not(:placeholder-shown){
 	border: 1px rgba(178, 178, 178, 0.52) solid;
  }
-
+.user-navigation a:hover,
+.user-navigation a:focus,
+.user-navigation a:active{
+	color: #323232;
+	background-color: #ffffff;
+}
 
 /************************************************/
 
@@ -1147,7 +1159,8 @@ input[type="radio"].visually-hidden {
 .sentence-list{
 	list-style: none;
 	padding: 0;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
+	margin-top: 34px;
 
 	display: flex;
 	
@@ -1315,7 +1328,7 @@ input[type="radio"].visually-hidden {
 
 .slider-controls {
   position: absolute;
-  bottom: 63px;
+  bottom: 27px;
   left: 0;
   z-index: 20;
   
