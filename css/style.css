@@ -78,7 +78,7 @@ input[type="radio"].visually-hidden {
 	display: block;
 	
 	margin: 22px 0px 22px 25px;
-	border-bottom: 1px #b5c4bc solid;
+	border-bottom: 1px rgba(255, 255, 255, 0.36) solid;
 	
 }
 .site-navigation__link:hover{
