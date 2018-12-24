@@ -125,8 +125,8 @@ input[type="radio"].visually-hidden {
 
 
 	list-style: none;
-	text-align: center;
-	padding:10px 0px;
+	text-align: left;
+	padding: 15px 0px 10px 0px;
 
 	width: 143px;
 	position: absolute;
@@ -144,14 +144,17 @@ input[type="radio"].visually-hidden {
 	margin-bottom:7px;
 	padding: 6px 0px;
 	font-weight: normal;
+
  }
 .submenu__link{
 	display: block;	
 	color: #323232;
+	margin-left: 20px;
 	
 }
 .submenu li:nth-child(1){
 	margin-bottom:10px;
+	
 	font-weight: bold; 
 	
 	position: relative;
@@ -192,7 +195,10 @@ input[type="radio"].visually-hidden {
 .site-navigation__item:visited .submenu{
 	display: block;
 }
-
+.submenu .current{
+	background-color: #f6b5a5;
+	color: #323232;
+}
 /*!!!!Необходимо добавить активным ссылкам класс .submenu__item-current на страницах*/
 /******************************************************/
 .user-navigation-link,
@@ -350,78 +356,6 @@ input[type="radio"].visually-hidden {
 .user-navigation-basket{
 	position: relative;
 }
-
-.basket{
-	display: none;
-	position: absolute;
-	top:61px;
-	left: 865px;
-	width: 540px;
-	box-sizing:border-box;
-	background-color:#f8f7f4;
-	color: #323232;
-	box-shadow: 10px 20px 60px 0px #55665c;
-	border-radius: 5px;
-	padding: 20px 15px;
-
-}
-.wrap-basket{
-	display: flex;
-	justify-content:space-between;
-	margin-bottom: 20px;
-
-}
-.image-basket{
-	width: 33px;
-	height: 33px;
-	margin-right: 15px;
-}
-.wrap-basket .close{
-	position: static;
-}
-.product-name{
-	margin-right: 15px;
-	width: 214px;
-	font-size: 13px;
-	line-height: 16px;
-	color:#323232;
-}
-.product-price{
-	margin-right: 15px;
-	font-size: 13px;
-	line-height: 16px;
-	color:#323232;
-}
-.product-price span{
-	color: #999999;
-}
-.wrap-basket:after{
-  position: absolute;
-  top:130px;
-
-  content: '';
-  width: 510px;
-  height: 1px;
-  opacity: 0.3;
-  background-color:  #cacac7;;
-  
-}
-.buy{
-	display: flex;
-	flex-direction:column;
-	}
-.check{
-	align-self:flex-end;
-	font-weight: bold;
-}
-.buy .button{
-	align-self:flex-end;
-	padding: 10px 15px 10px 15px;
-}
-.but{
-	border: none;
-	background-color: transparent;
-}
 .user-navigation-basket-full{
 	position: relative;
 	
@@ -436,11 +370,99 @@ input[type="radio"].visually-hidden {
 	line-height: 16px;
 	font-weight: 500;
 }
+
+
+
 .user-navigation-basket-full svg{
 	position: absolute;
 	top:7px;
 	left: 13px;
 }
+
+.basket{
+	display: none;
+	position: absolute;
+	top:37px;
+	right: 0px;
+	width: 540px;
+	box-sizing:border-box;
+	background-color:#f8f7f4;
+	color: #323232;
+	box-shadow: 10px 20px 60px 0px #55665c;
+	border-radius: 5px;
+	padding: 20px 15px;
+	z-index: 1;
+
+}
+.user-navigation-basket-full:hover .basket{
+  display: block;
+}
+
+.wrap-basket{
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 20px;
+	position: relative;
+	padding-left: 30px;
+
+}
+.image-basket{
+	width: 33px;
+	height: 33px;
+	margin-right: 15px;
+}
+.wrap-basket .close{
+	position: static;
+}
+.product-name{
+	margin-right: 30px;
+	width: 214px;
+	font-size: 13px;
+	line-height: 16px;
+	color:#323232;
+}
+.product-price{
+	margin-right: 15px;
+	font-size: 13px;
+	line-height: 16px;
+	color:#323232;
+}
+.product-price span{
+	color: #999999;
+}
+.buy:before{
+  position: absolute;
+  top:130px;
+
+  content: '';
+  width: 510px;
+  height: 1px;
+  opacity: 0.3;
+  background-color:#cacac7;
+  
+}
+.buy{
+	display: flex;
+	flex-direction:column;
+	}
+.check{
+	align-self:flex-end;
+	font-weight: bold;
+}
+.buy .button{
+	align-self:flex-end;
+	padding: 10px 15px 10px 15px;
+
+}
+.but{
+	border: none;
+	background-color: transparent;
+	position: absolute;
+	top: 3px;
+    left: -10px;
+}
+
+
 /*******************************************************/
 
 .user-find input{
@@ -789,6 +811,7 @@ input[type="radio"].visually-hidden {
 	font-size: 35px;
   	line-height: 41px;
   	font-weight: bold;
+
 }
 .catalog-page{
 	margin: 5px 27px;
@@ -989,6 +1012,9 @@ input[type="radio"].visually-hidden {
 	margin-right: 5px;
 }
 /*******************Формы КАТАЛОГ************************************/
+.forms{
+	margin-bottom: 40px;
+}
 .forms p{
 	margin: 0;
 	margin-bottom: 5px;
@@ -1566,13 +1592,10 @@ justify-content:flex-end;
 }
 
 .pagination-list{
-	
 	list-style: none;
 	display: flex;
 	justify-content:flex-end;
-
 	color: #323232;
-	margin-right: 5px;
 	
 }
 .pagination-item__back{
