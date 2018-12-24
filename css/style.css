@@ -191,7 +191,7 @@ input[type="radio"].visually-hidden {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 16px;
-	background-color: #a1b4a9;
+	background-color: rgba(255, 255, 255, 0.36);
 	border-radius: 40px;
 
 	
@@ -681,10 +681,7 @@ input[type="radio"].visually-hidden {
 	padding: 12px 20px 12px 20px;
 
 }
-.feedback-button:active .feedback,
-.feedback-button:focus .feedback{
-	display: block;
-}
+
 
 
 
@@ -1417,6 +1414,10 @@ input[type="radio"].visually-hidden {
 	box-shadow: 10px 20px 60px 0px #55665c;
 	border-radius: 10px;
 	padding: 20px 24px 20px 24px;
+}
+.feedback-button:active .feedback,
+.feedback-button:focus .feedback{
+	display: block;
 }
 .feedback h2{
 	font-size: 24px;
