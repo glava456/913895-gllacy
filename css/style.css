@@ -1176,6 +1176,7 @@ input[type="radio"].visually-hidden {
 	display: flex;
 }
 .berry{
+	background-color: #bf212c;
 	background-image:url(../img/strawberry-fon.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1194,6 +1195,7 @@ input[type="radio"].visually-hidden {
 
 }
 .chocolate{
+	background-color: #83413e;
 	background-image:url(../img/chocolate-fon.jpg);
 
 	width: 560px;
