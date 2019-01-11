@@ -1131,7 +1131,7 @@ input[type="radio"].visually-hidden {
 .extender-checkbox input[type="checkbox"]:checked ~ .checkbox-indicator {
   	background-image: url(../img/checkbox-on.svg);
   	background-repeat: no-repeat;
-  	background-position: center;
+  	background-position: center; 	
 }
 .checkbox-indicator,
 .radio-indicator{
@@ -1141,6 +1141,11 @@ input[type="radio"].visually-hidden {
 .radio-indicator:hover{
 	opacity: 1;
 	margin-right: 13px;
+}
+
+.checkbox-indicator:focus,
+.radio-indicator:focus{
+	outline: 3px solid #225bc4;
 }
 .checkbox-indicator:disabled,
 .radio-indicator:disabled{
@@ -1167,7 +1172,7 @@ input[type="radio"].visually-hidden {
 .fat-radio input[type="radio"]:checked ~ .radio-indicator {
   	background-image: url(../img/radio-on.svg);
   	background-repeat: no-repeat;
-  	background-position: center;
+  	background-position: center; 
 }
 /***********************************************************/
 .sentence-list{
