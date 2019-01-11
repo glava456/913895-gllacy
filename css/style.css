@@ -38,7 +38,7 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 	border-radius: 40px;
 	border: none;
-	padding: 15px 20px 15px 20px;
+	padding: 10px 15px 10px 15px;
 	cursor: pointer;
 
 	background-color:#e84c36;
@@ -538,7 +538,7 @@ input[type="radio"].visually-hidden {
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: normal;
-	padding: 23px 30px 23px 20px;
+	padding: 27px 30px 23px 20px;
 
 	box-sizing:border-box;
 	margin: 0px;
@@ -558,13 +558,13 @@ input[type="radio"].visually-hidden {
 .info-list-item{
 	width: 470px;
 	position: relative;
-	padding-left: 76px;
-	padding-top: 17px;
+	padding-left: 58px;
+    padding-top: 22px;
 }
 .info-list-item svg{
 	position: absolute;
 	left:0px;
-	top:0px;
+	top:8px;
 }
 .info-list-item p{
 	margin: 0;
@@ -573,16 +573,16 @@ input[type="radio"].visually-hidden {
 .info h3{
 	font-size: 24px;
 	line-height: 30px;
-	font-weight: bold;
 	margin: 0;
-	margin-bottom: 10px;
+	
 }
 /********************************************************/
 .blog{
+	box-sizing:border-box;
 	background-image: url(../img/blog-fon.jpg);
 	background-position: top center;
  	background-repeat: no-repeat;
- 	padding: 28px 0px 23px 20px;
+ 	padding: 24px 0px 20px 20px;
  	border-radius: 15px;
  	margin: 0;
 
@@ -629,7 +629,7 @@ input[type="radio"].visually-hidden {
 }
 .subscription-container{
 	border-radius: 15px;
-	padding: 15px 20px 15px 17px;
+	padding: 12px 20px 15px 22px;
 	background-color: #f8f7f4;
 	font-size: 16px;
 	line-height: 22px;
@@ -642,9 +642,9 @@ input[type="radio"].visually-hidden {
 }
 .subscription-container input{
 	box-sizing:border-box;
-	width: 364px;
+	width: 366px;
 	padding: 10px;
-	margin-right: 10px;
+	margin-right: 13px;
 }
 .subscription-container form{
 	margin-bottom: 18px;
@@ -843,7 +843,7 @@ input[type="radio"].visually-hidden {
 }
 .price{
 	margin-top: 150px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	order:2;
 }
 .inner-page .price{
@@ -1178,8 +1178,8 @@ input[type="radio"].visually-hidden {
 .sentence-list{
 	list-style: none;
 	padding: 0;
-	margin-bottom: 30px;
-	margin-top: 34px;
+	margin-bottom: 40px;
+	margin-top: 35px;
 
 	display: flex;
 }
@@ -1191,14 +1191,14 @@ input[type="radio"].visually-hidden {
 	
 	background-size: cover;
 	margin-right: 26px;
-	border-radius: 10px;
+	border-radius: 15px;
 
 	display: flex;
 	flex-direction:column;
 	align-items:flex-start;
 
 	width:560px;
-	padding:30px 20px 0px 20px;
+	padding:21px 20px 0px 20px;
 
 
 }
@@ -1207,11 +1207,11 @@ input[type="radio"].visually-hidden {
 	background-image:url(../img/chocolate-fon.jpg);
 
 	width: 560px;
-	padding:30px 20px 0px 20px;
+	padding:21px 20px 0px 20px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	border-radius: 10px;
+	border-radius: 15px;
 
 	display: flex;
 	flex-direction:column;
@@ -1221,7 +1221,7 @@ input[type="radio"].visually-hidden {
 .berry a,
 .chocolate a{
 	align-self:flex-end;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 
 }
 
@@ -1234,25 +1234,23 @@ input[type="radio"].visually-hidden {
 .chocolate-text{
 	font-size: 18px;
 	line-height: 22px;
-	margin: 12px 0 40px 0;
+	margin: 12px 0 43px 0;
 	width: 510px;
 }
 
 /****************************************************/
 .links{
 	list-style: none;
-	padding: 27px 0px 31px 0px;
+	padding: 35px 0px 31px 0px;
 	margin: 0;
 	
 	display: flex;
-	
-	justify-content:space-between;
+
 	width: 336px;
 	flex-wrap:wrap;
-
 }
 .links__item{
-	width: 168px;
+	min-width: 133px;
 	font-size: 13px;
   	line-height: 18px;
   	font-weight: normal;
