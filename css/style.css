@@ -261,6 +261,9 @@ input[type="radio"].visually-hidden {
 .after-entrance:hover:after{
 	background-image: url(../img/entrance.svg);
 }
+.after-entrance:focus:after{
+	background-image: url(../img/entrance.svg);
+}
 .wrapper-user-entrance{
 	display: none;
 }
