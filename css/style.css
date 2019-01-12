@@ -721,13 +721,13 @@ input[type="radio"].visually-hidden {
 	width: 1200px;
 	height: 430px;
 }
-.adress{	
+.adres{	
 	position: absolute;
 	top:63px;
 	left: 871px;
 
-	width: 302px;
-	padding: 15px 25px 30px 25px;
+	width: 305px;
+	padding: 30px 20px 30px 30px;
 	-webkit-box-sizing:border-box;
 	        box-sizing:border-box;
 
@@ -739,14 +739,25 @@ input[type="radio"].visually-hidden {
 	font-size: 14px;
 	line-height: 20px;
 }
-.adress p{
-	margin-bottom: 10px;
+.adres ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
-.adress b{
+.adres b{
 	font-size: 18px;
 	line-height: 24px;	
 }
-.adress .button{
+.adres-item{
+	margin-bottom: 18px;
+}
+.adres-item-1{
+	margin-bottom: 6px;
+}
+.adres-item-2{
+	margin-bottom: 20px;
+}
+.adres .button{
 	display: block;
 	text-align: center;
 	margin-top: 25px;
@@ -754,7 +765,7 @@ input[type="radio"].visually-hidden {
 	padding: 12px 20px 12px 20px;
 }
 
-.adress .link-white-ground{
+.adres .link-white-ground{
 	font-size: 18px;
 	line-height: 22px;
 	border-bottom: none;
