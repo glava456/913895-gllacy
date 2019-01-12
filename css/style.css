@@ -56,8 +56,8 @@ input[type="radio"].visually-hidden {
 }
 .slider .button{
 	padding: 12px 44px;
-  	font-size: 31px;
-  	line-height: 41px;
+  	font-size: 32px;
+  	line-height: 44px;
 }
 .button:hover{
 	background: -webkit-gradient(linear,left top, left bottom,from(#f48568),to(#ed705e));
@@ -628,7 +628,7 @@ input[type="radio"].visually-hidden {
 	font-size: 24px;
 	line-height: 30px;
 	margin: 0;
-	
+	font-weight: 500;
 }
 /********************************************************/
 .blog{
@@ -650,7 +650,7 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 	font-size: 16px;
 	line-height: 22px;
-	font-weight: normal;
+	font-weight: 500;
 }	 
 .blog a{
 	display: block;
@@ -756,6 +756,7 @@ input[type="radio"].visually-hidden {
 }
 .adres-item-2{
 	margin-bottom: 20px;
+	line-height: 22px;
 }
 .adres .button{
 	display: block;
@@ -964,6 +965,7 @@ input[type="radio"].visually-hidden {
 .products-item h3{
 	margin: 0;
 	text-align: center;
+	font-weight: 500;
 	text-decoration: underline;
 	-webkit-box-ordinal-group:4;
 	    -ms-flex-order:3;
@@ -1088,6 +1090,7 @@ input[type="radio"].visually-hidden {
 .forms p{
 	margin: 0px 0px 0px 16px;
 	margin-bottom: 5px;
+	font-weight: 500;
 }
 .wrapper-forms-up,
 .wrapper-forms-down{
@@ -1211,11 +1214,16 @@ input[type="radio"].visually-hidden {
 	padding: 9px 51px 9px 16px;
 	font-size: 16px;
 	line-height: 18px;
+	font-weight: 500;
 	border: none;
 	 appearance: none;
  	-webkit-appearance: none;
  	-moz-appearance: none;
 } 
+.sort option{
+	font-size: 14px;
+	line-height: 16px;
+}
 .sorting:after {
   	content:'';
   	position: absolute;
@@ -1240,7 +1248,7 @@ input[type="radio"].visually-hidden {
 }
 .forms-button{
 	color: #ffffff;
-	font-weight: normal;
+	font-weight: 500;
 	background-color: #a1b4a9;
 	border-radius: 40px;
 	padding: 8px 30px 8px 30px;
@@ -1332,7 +1340,11 @@ input[type="radio"].visually-hidden {
   	background-repeat: no-repeat;
   	background-position: center; 
 }
-
+.forms-item{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+}
 /***********************************************************/
 .sentence-list{
 	list-style: none;
@@ -1618,6 +1630,7 @@ input[type="radio"].visually-hidden {
 	line-height: 28px;
 	margin: 0;
 	margin-bottom: 20px;
+	font-weight: 500;
 }
 .close {
   	position: absolute;
@@ -1664,7 +1677,7 @@ input[type="radio"].visually-hidden {
 	border-radius: 5px;
 	border: 1px rgba(178, 178, 178, 0.52) solid;
 	padding: 10px;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 20px;
 
@@ -1677,7 +1690,7 @@ input[type="radio"].visually-hidden {
 	border-radius: 5px;
 	border: 1px rgba(178, 178, 178, 0.52) solid;
 	padding: 10px;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 25px;
 	resize:vertical;
@@ -1737,7 +1750,7 @@ input[type="radio"].visually-hidden {
 
 .pagination-item__link{
   	color: #ffffff;
-  	font-weight: bold;
+  	font-weight: 500;
   	font-size: 16px;
 	line-height: 18px;
 	display: block;
