@@ -867,7 +867,10 @@ input[type="radio"].visually-hidden {
 }
 .price span{
 	font-size: 30px;
-
+	margin-left: -12px;
+}
+.price svg{
+	margin-left: -8px;
 }
 .products-list{
 	display: -webkit-box;
