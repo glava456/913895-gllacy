@@ -326,7 +326,7 @@ input[type="radio"].visually-hidden {
   	line-height: 24px;
   	border-radius: 5px;
 	border: 1px rgba(178, 178, 178, 0.52) solid;
-	padding: 10px;
+	padding: 9px;
 	margin-bottom: 20px;
 	width: 241px;
 }
@@ -336,12 +336,16 @@ input[type="radio"].visually-hidden {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack:distribute;
-	    justify-content:space-around;
+	    justify-content:space-between;
 }
 .right-wrapper-entrance{
 	font-size: 13px;
 	line-height: 24px;
-	width: 130px;
+	width: 122px;
+}
+.wrapper-entrance .button{
+	padding: 0px 25px 0px 25px;
+	
 }
 /*******************************************************/
 .user-entrance-link,
