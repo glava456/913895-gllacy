@@ -137,15 +137,15 @@ input[type="radio"].visually-hidden {
 
 	list-style: none;
 	text-align: left;
-	padding: 15px 0px 10px 0px;
+	padding: 9px 0px 10px 0px;
 
 	width: 143px;
 	position: absolute;
 
 	z-index: 1;
   	
-	top:60px;
-	left: 5px;
+	top: 53px;
+    left: 8px;
 	color: #323232;
 	background-color: #f8f7f4;
 	-webkit-box-shadow: 10px 20px 60px 0px #55665c;
@@ -153,7 +153,7 @@ input[type="radio"].visually-hidden {
 	border-radius: 5px;
 }
  .submenu__item{
-	margin-bottom:7px;
+	margin-bottom: 3px;
 	padding: 6px 0px;
 	font-weight: normal;
  }
@@ -163,18 +163,18 @@ input[type="radio"].visually-hidden {
 	margin-left: 20px;	
 }
 .submenu li:nth-child(1){
-	margin-bottom:10px;
+	margin-bottom: 16px;
 	font-weight: bold; 
 	position: relative;
  }
 .submenu li:nth-child(1):after {
   	position: absolute;
   	content: '';
-  	width: 80%;
+  	width: 90%;
   	height: 1px;
   	background: #999999;
-  	bottom: -10px;
-  	left: 15px;
+  	bottom: -13px;
+  	left: 7px;
 }
  .submenu li:last-child{
 	margin-bottom:0px;
