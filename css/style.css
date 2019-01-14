@@ -244,10 +244,10 @@ input[type="radio"].visually-hidden {
 	-webkit-box-shadow: 10px 20px 60px 0px #55665c;
 	        box-shadow: 10px 20px 60px 0px #55665c;
 	border-radius: 5px;
-	padding: 20px 10px 20px 10px;
+	padding: 20px 15px 20px 15px;
  	z-index: 1;
 	top:37px;
-	left: -301px;
+	left: -307px;
 	position: absolute;
 }
 .user-find{
@@ -261,12 +261,12 @@ input[type="radio"].visually-hidden {
 /*************************************************/
 .user-navigation-entrance{
 	position: relative;
-	margin: 0 8px 0 6px;
+	margin: 0 8px 0 8px;
 }
 .after-entrance:after {
   	content:'';
   	position: absolute;
-  	left: 22px;
+  	left: 19px;
   	top: 6px;
   	background-image: url(../img/entrance-white.svg);
 	background-position: top center;
@@ -317,7 +317,7 @@ input[type="radio"].visually-hidden {
 	position: absolute;
 	width: 277px;
 	top:37px;
-	left: -175px;
+	left: -181px;
 }
 .user-entrance input{
 	-webkit-box-sizing:border-box;
@@ -348,7 +348,14 @@ input[type="radio"].visually-hidden {
 	
 }
 /*******************************************************/
-.user-entrance-link,
+.user-entrance-link{
+	-webkit-box-sizing:border-box;
+	        box-sizing:border-box;
+	text-align: center;
+	min-width: 95px;
+	display: block;
+	padding: 8px 0px 8px 28px;	
+}
  .user-basket-link{
 	-webkit-box-sizing:border-box;
 	        box-sizing:border-box;
@@ -480,7 +487,7 @@ input[type="radio"].visually-hidden {
 .user-find input{
 	border-radius: 5px;
 	border: 1px rgba(178, 178, 178, 0.52) solid;
-	padding: 10px;
+	padding: 9px;
 	font-size: 14px;
 	line-height: 24px;
 
@@ -1605,7 +1612,7 @@ input[type="radio"].visually-hidden {
 	-webkit-box-shadow: 10px 20px 60px 0px #55665c;
 	        box-shadow: 10px 20px 60px 0px #55665c;
 	border-radius: 10px;
-	padding: 20px 24px 20px 24px;
+	padding: 15px 24px 20px 24px;
 }
 .feedback-button:active .feedback,
 .feedback-button:focus .feedback{
@@ -1615,13 +1622,13 @@ input[type="radio"].visually-hidden {
 	font-size: 24px;
 	line-height: 28px;
 	margin: 0;
-	margin-bottom: 20px;
+	margin-bottom: 19px;
 	font-weight: 500;
 }
 .close {
   	position: absolute;
-  	top: 17px;
-  	right: 17px;
+  	top: 12px;
+    right: 19px;
   
   	width: 18px;
   	height: 18px;
@@ -1642,8 +1649,8 @@ input[type="radio"].visually-hidden {
   	top: 10px;
   	left: 2px;
 
-  	width: 18px;
-  	height: 3px;
+  	width: 21px;
+  	height: 2px;
 
   	background-color: #323232;
 }
@@ -1662,7 +1669,7 @@ input[type="radio"].visually-hidden {
 .feedback input{
 	border-radius: 5px;
 	border: 1px rgba(178, 178, 178, 0.52) solid;
-	padding: 10px;
+	padding: 9px 9px 9px 14px;
 	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 20px;
@@ -1675,10 +1682,10 @@ input[type="radio"].visually-hidden {
 .feedback textarea{
 	border-radius: 5px;
 	border: 1px rgba(178, 178, 178, 0.52) solid;
-	padding: 10px;
+	padding: 7px 9px 9px 14px;
 	font-size: 16px;
 	line-height: 24px;
-	margin-bottom: 25px;
+	margin-bottom: 18px;
 	resize:vertical;
 
 	-webkit-box-sizing: border-box;
@@ -1694,6 +1701,9 @@ input[type="radio"].visually-hidden {
 	-webkit-box-pack:end;
 	    -ms-flex-pack:end;
 	        justify-content:flex-end;
+}
+.wrapp-button .button{
+	padding: 10px 25px 10px 25px;
 }
 /*****************Pagination*******************************************/
 
