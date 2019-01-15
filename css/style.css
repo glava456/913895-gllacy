@@ -188,19 +188,17 @@ input[type="radio"].visually-hidden {
 	background-color: #f6b5a5;
 	color: #323232;
 }
-.submenu__item-current{
-	background-color: #d07058;
-	color: #323232;
-}
 .site-navigation__item:hover .submenu,
 .site-navigation__item:active .submenu,
 .site-navigation__item:focus .submenu,
 .site-navigation__item:visited .submenu{
 	display: block;
 }
+.submenu .current a{
+	color: #ffffff;
+}
 .submenu .current{
-	background-color: #f6b5a5;
-	color: #323232;
+	background-color: #d07058;
 }
 /*!!!!Необходимо добавить активным ссылкам класс .submenu__item-current на страницах*/
 /******************************************************/
@@ -971,17 +969,17 @@ input[type="radio"].visually-hidden {
 	        order:2;
 }
 .inner-page .price{
-	margin-top: 215px;
-	margin-bottom: 15px;
+	margin-top: 207px;
+    margin-bottom: 21px;
 	-webkit-box-ordinal-group:3;
 	    -ms-flex-order:2;
 	        order:2;
 }
 .inner-page .products-item{
-	margin-bottom: 15px;
+	margin-bottom: 17px;
 }
 .inner-page .products-list{
-	margin-bottom: 35px;
+	margin-bottom: 24px;
 }
 .products-item h3{
 	margin: 0;
@@ -1737,8 +1735,6 @@ input[type="radio"].visually-hidden {
 	padding: 10px 25px 10px 25px;
 }
 /*****************Pagination*******************************************/
-
-
 .pagination{
 	position: relative;
 	padding: 0;
@@ -1790,16 +1786,30 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;
 	background-color: #aabbb1;
 	border-radius: 40px;
-	padding: 10px 15px 10px 15px;
-	margin: 12px -15px 12px 5px;
+	padding: 3px 8px 3px 8px;
+	margin: 19px -8px 19px 12px;
 }
 
-.pagination-item__link:focus{
+.pagination-item__link:focus,
+.pagination-item__link:active{
 	color: #323232;
 	background-color: #ffffff;
 	border-radius: 40px;
-	padding: 10px 15px 10px 15px;
-	margin: 12px -15px 12px 5px;
+	padding: 3px 8px 3px 8px;
+	margin: 19px -8px 19px 12px;
+}
+.pagination-current{
+	color: #323232;
+	background-color: #ffffff;
+	border-radius: 40px;
+	padding: 3px 8px 3px 8px;
+    margin: 18px -5px 7px 9px;
+	font-weight: 500;
+  	font-size: 16px;
+	line-height: 18px;
+	display: block;
+
+	border-bottom: none;
 }
 .pagination:after{
   position: absolute;
