@@ -142,16 +142,16 @@
             <div class="price-controls">
               <span>Цена:</span>
               <label class="min-price">
-                <input name="min-price" type="text" value="100 ">руб. - </label>
+                <input name="min-price" type="text" value="100">руб. - </label>
               <label class="max-price">
-                <input name="max-price" type="text" value="500 ">руб.</label>
+                <input name="max-price" type="text" value="500" >руб.</label>
             </div>
             <div class="range">
               <div class="range__block">
               <div class="range__first"></div>
                 <div class="range__second"></div>
-                <button type="button" class="prev" value="min price"></button>
-                <button type="button" class="next" value="max price"></button>
+                <button type="button" class="prev" value="min price" aria-label="min-price"></button>
+                <button type="button" class="next" value="max price" aria-label="max-price"></button>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@
               <p>Жирность:</p>
               <div class="fat-items">
                 <label class="fat-radio">
-                  <input type="radio" name="question-fat" value="0%" checked disabled class="visually-hidden state-radio">
+                  <input type="radio" name="question-fat" value="0%" checked class="visually-hidden state-radio">
                   <span class="radio-indicator on"></span>
                   <span class="forms-item">0%</span>
                 </label>
@@ -186,7 +186,7 @@
               <p>Наполнители</p>
               <div class="extender-items">
                 <label class="extender-checkbox">
-                  <input type="checkbox" name="chocolate" class="visually-hidden state-checkbox" checked disabled>
+                  <input type="checkbox" name="chocolate" class="visually-hidden state-checkbox" checked>
                   <span class="checkbox-indicator on"></span>
                   <span class="forms-item">шоколадные</span>
                 </label>

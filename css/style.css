@@ -1174,6 +1174,7 @@ input[type='radio'].visually-hidden {
 	font-size: 0;
 	width: 20px;
 	height: 20px;
+	background-color: #ffffff;
 	border: none;
 	border-radius: 50%;
 	position: absolute;
