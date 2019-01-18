@@ -1317,16 +1317,16 @@ input[type='radio'].visually-hidden {
 .radio-indicator:hover{
 	opacity: 1;
 }
-.checkbox-indicator:focus,
-.radio-indicator:focus{
+.state-checkbox:focus ~ .checkbox-indicator,
+.state-radio:focus ~ .radio-indicator{
 	outline: 3px solid #8fbdec;
 }
-.checkbox-indicator:active,
-.radio-indicator:active{
+.state-checkbox:active ~ .checkbox-indicator,
+.state-radio:active ~ .radio-indicator{
 	opacity: 1;
 }
-.checkbox-indicator:disabled,
-.radio-indicator:disabled{
+.state-checkbox:disabled ~ .checkbox-indicator,
+.state-radio:disabled ~ .radio-indicator{
 	opacity: 0.4;
 }
 .fat-radio{

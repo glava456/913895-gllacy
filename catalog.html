@@ -5,7 +5,7 @@
   <title>Сливочное мороженое</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style-min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="inner-page">
     <div class="wrapper">
@@ -159,22 +159,22 @@
               <p>Жирность:</p>
               <div class="fat-items">
                 <label class="fat-radio">
-                  <input type="radio" name="question-fat" value="0%" checked class="visually-hidden">
+                  <input type="radio" name="question-fat" value="0%" checked disabled class="visually-hidden state-radio">
                   <span class="radio-indicator on"></span>
                   <span class="forms-item">0%</span>
                 </label>
                 <label class="fat-radio">
-                    <input type="radio" name="question-fat" value="10%" checked class="visually-hidden">
+                    <input type="radio" name="question-fat" value="10%" checked class="visually-hidden state-radio">
                     <span class="radio-indicator on"></span>
                     <span class="forms-item">до 10%</span>
                 </label>
                 <label class="fat-radio">
-                  <input type="radio" name="question-fat" value="30%" class="visually-hidden">
+                  <input type="radio" name="question-fat" value="30%" class="visually-hidden state-radio">
                   <span class="radio-indicator off"></span>
                   <span class="forms-item">до 30%</span>
                 </label>
                 <label class="fat-radio">
-                    <input type="radio" name="question-fat" value="under30%" class="visually-hidden">
+                    <input type="radio" name="question-fat" value="under30%" class="visually-hidden state-radio">
                     <span class="radio-indicator off"></span>
                     <span class="forms-item">выше 30%</span>
                 </label>
@@ -186,27 +186,27 @@
               <p>Наполнители</p>
               <div class="extender-items">
                 <label class="extender-checkbox">
-                  <input type="checkbox" name="chocolate" class="visually-hidden" checked>
+                  <input type="checkbox" name="chocolate" class="visually-hidden state-checkbox" checked disabled>
                   <span class="checkbox-indicator on"></span>
                   <span class="forms-item">шоколадные</span>
                 </label>
                 <label class="extender-checkbox">   
-                  <input type="checkbox" name="sugar" class="visually-hidden" checked>
+                  <input type="checkbox" name="sugar" class="visually-hidden state-checkbox" checked>
                   <span class="checkbox-indicator on"></span>
                   <span class="forms-item">сахарные присыпки</span>
                 </label>
                 <label class="extender-checkbox">   
-                  <input type="checkbox" name="fruits" class="visually-hidden">
+                  <input type="checkbox" name="fruits" class="visually-hidden state-checkbox">
                   <span class="checkbox-indicator off"></span>
                   <span class="forms-item">фрукты</span>
                 </label>
                 <label class="extender-checkbox">   
-                  <input type="checkbox" name="sirup" class="visually-hidden">
+                  <input type="checkbox" name="sirup" class="visually-hidden state-checkbox">
                   <span class="checkbox-indicator off"></span>
                   <span class="forms-item">сиропы</span>
                 </label> 
                 <label class="extender-checkbox">  
-                  <input type="checkbox" name="jam" class="visually-hidden">
+                  <input type="checkbox" name="jam" class="visually-hidden state-checkbox">
                   <span class="checkbox-indicator off"></span>
                   <span class="forms-item">джемы</span>
                 </label>
