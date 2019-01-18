@@ -1290,6 +1290,10 @@ input[type='radio'].visually-hidden {
 	margin-right: 20px;
 	cursor: pointer;
 }
+.checkbox-indicator,
+.radio-indicator{
+	opacity: 0.8;
+}
 .extender-checkbox input[type='checkbox'] + .checkbox-indicator {
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
@@ -1302,29 +1306,22 @@ input[type='radio'].visually-hidden {
 	background-repeat: no-repeat;
 	background-position: center;
 	border-right: 4px solid transparent;
-
  }
 .extender-checkbox input[type='checkbox']:checked ~ .checkbox-indicator {
 	background-image: url('../img/checkbox-on.svg');
 	background-repeat: no-repeat;
 	background-position: center; 
 	border-right: none;	
-}
-.checkbox-indicator,
-.radio-indicator{
-	opacity: 0.8;
+	opacity: 1;
 }
 .checkbox-indicator:hover,
 .radio-indicator:hover{
 	opacity: 1;
 }
-.state-checkbox:focus ~ .checkbox-indicator,
-.state-radio:focus ~ .radio-indicator{
-	outline: 3px solid #8fbdec;
-}
-.state-checkbox:active ~ .checkbox-indicator,
-.state-radio:active ~ .radio-indicator{
+.checkbox-indicator:focus,
+.radio-indicator:focus{
 	opacity: 1;
+	outline: 3px solid #8fbdec;
 }
 .state-checkbox:disabled ~ .checkbox-indicator,
 .state-radio:disabled ~ .radio-indicator{
@@ -1354,7 +1351,8 @@ input[type='radio'].visually-hidden {
 .fat-radio input[type='radio']:checked ~ .radio-indicator {
 	background-image: url('../img/radio-on.svg');
 	background-repeat: no-repeat;
-	background-position: center; 
+	background-position: center;
+	opacity: 1;
 }
 .forms-item{
 	font-weight: 500;
