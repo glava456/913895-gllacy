@@ -54,7 +54,7 @@ input[type='radio'].visually-hidden {
 	text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
 }
 .slider .button{
-	padding: 12px 44px;
+	padding: 12px 42px;
 	font-size: 32px;
 	line-height: 44px;
 }
@@ -229,7 +229,7 @@ input[type='radio'].visually-hidden {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin-top: 15px;
+	margin-top: 12px;
 	-webkit-box-pack:end;
 		-ms-flex-pack:end;
 		justify-content:flex-end;
@@ -710,13 +710,13 @@ input[type='radio'].visually-hidden {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack:justify;
-		-ms-flex-pack:justify;
-		justify-content:space-between;
-	margin: 43px 0px;
+	-ms-flex-pack:justify;
+	justify-content:space-between;
+	margin: 43px 0px 41px 0px;
 }
 .subscription{
 	-webkit-box-sizing:border-box;
-		box-sizing:border-box;
+	box-sizing:border-box;
 	width: 560px;
 	
 	border-radius: 15px;
@@ -738,20 +738,23 @@ input[type='radio'].visually-hidden {
 }
 .subscription-container p{
 	margin-top: 16px;
-	margin-bottom: 34px;
+	margin-bottom: 35px;
 }
 .subscription-container input{
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	width: 366px;
-	padding: 10px;
-	margin-right: 13px;
+	width: 367px;
+	padding: 10px 15px;
+	margin-right: 10px;
+}
+.subscription-container ::placeholder{
+	color: #999999;
 }
 .subscription-container form{
 	margin-bottom: 18px;
 }
 .subscription-container button{
-	padding: 10px 15px 10px 15px;
+	padding: 11px 17px 11px 17px;
 }
 /**********************************************************/
 .maps{
@@ -763,11 +766,10 @@ input[type='radio'].visually-hidden {
 }
 .adres{	
 	position: absolute;
-	top:63px;
-	left: 871px;
-
-	width: 305px;
-	padding: 27px 20px 30px 27px;
+	top: 60px;
+    left: 871px;
+    width: 304px;
+	padding: 28px 27px 30px 27px;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 
@@ -791,6 +793,10 @@ input[type='radio'].visually-hidden {
 .adres-item{
 	margin-bottom: 18px;
 }
+.adres-item-main{
+	padding-right: 102px;
+	margin-bottom: 3px;
+}
 .adres-item-1{
 	margin-bottom: 6px;
 }
@@ -803,7 +809,7 @@ input[type='radio'].visually-hidden {
 	text-align: center;
 	margin-top: 25px;
 	margin-bottom: 0px;
-	padding: 12px 20px 12px 20px;
+	padding: 9px 20px 11px 20px;
 }
 .adres .link-white-ground{
 	font-size: 18px;
@@ -838,7 +844,7 @@ input[type='radio'].visually-hidden {
 	-webkit-box-pack:justify;
 		-ms-flex-pack:justify;
 		justify-content:space-between;
-	margin: 0px 18px 0px 27px;	
+	margin: -3px 18px 0px 27px;	
 }
 .social{
 	padding: 36px 0px 29px 0px;
